@@ -6,19 +6,7 @@ body {
 
 .page-header {
   color: #000; }
-
-.btn, .slider {
-  color: #000;
-  display: inline-block;
-  text-decoration: none;
-  vertical-align: middle; }
-
-.slider {
-  display: none; }
-
-@media (min-width: 768px) {
-
-  .slider {
-    display: block; } }
+  .page-header .span {
+    color: blue; }
 
 /*# sourceMappingURL=style.css.map */
