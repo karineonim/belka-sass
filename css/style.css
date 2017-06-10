@@ -1,12 +1,64 @@
+@charset "UTF-8";
 body {
   min-width: 320px;
   margin: 0;
-  font-family: "Open Sans_my", sans-serif;
+  font-family: "OpenрSans", sans-serif;
+  color: #000;
+  background: #efeff4; }
+
+a {
+  text-decoration: none;
   color: #000; }
 
+.btn {
+  padding: 10px 25px; }
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../fonts/subset-OpenSans.woff2") format("woff2"), url("../fonts/subset-OpenSans.woff") format("woff"), url("../fonts/subset-OpenSans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
 .page-header {
-  color: #000; }
-  .page-header .span {
-    color: blue; }
+  width: 100%; }
+  .page-header__contacts {
+    background-color: #e9e9f1; }
+  .page-header__container {
+    margin: 0 auto;
+    padding: 0 30px;
+    overflow: hidden; }
+
+.contacts {
+  display: inline-block;
+  float: right; }
+  .contacts__time {
+    display: inline-block; }
+  .contacts__phone {
+    display: inline-block; }
+  .contacts__location {
+    display: inline-block; }
+
+.title {
+  font-size: 40px;
+  text-align: center; }
+
+.page-header {
+  width: 100%; }
+  .page-header__contacts {
+    background-color: #e9e9f1; }
+  .page-header__container {
+    margin: 0 auto;
+    padding: 0 30px;
+    overflow: hidden; }
+
+.contacts {
+  display: inline-block;
+  float: right; }
+  .contacts__time {
+    display: inline-block; }
+  .contacts__phone {
+    display: inline-block; }
+  .contacts__location {
+    display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
