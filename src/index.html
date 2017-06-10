@@ -2,7 +2,7 @@
 <html lang="ru" class="no-js">
 <head>
   @@include('_include/page-head.html')
-  <title>Document</title>
+  <title>Belka</title>
 </head>
 <body>
   <!-- Это включение в разметку SVG-спрайта и пример его использования -->
@@ -22,8 +22,313 @@
   <div class="placeholder"></div>
   -->
 
-  <h1>Header</h1>
-  <p>text</p>
+<header class="page-header">
+    <div class="page-header__contacts">
+      <div class="page-header__container">
+        <div class="page-header__contacts-wrap">
+          <div class="contacts">
+            <div class="contacts__time">24 часа</div>
+            <div class="contacts__phone">8(812)999-77-88</div>
+            <div class="contacts__location">Выборгское ш.,220</div>
+          </div>
+        </div>
+        <button class="page-header__nav-toggle main-nav__toggle"></button>
+      </div>
+    </div>
+    <div class="page-header__container">
+      <a href="#" class="page-header__logo">
+        <img src="" alt="" class="logo__img">
+      </a>  
+
+      <button class="page-header__order-btn btn">Купить билет</button>
+
+      <nav class="page-header__nav main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item main-nav__item--active"><a href="#" class="main-nav__link">Трассы</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Акции</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Цены</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Отзывы</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    
+  </header>
+<!-- ШАПКА -->
+  <section class="rocks">
+    <div class="rocks__container">
+      <h1 class="title">Скалодром</h1>
+      <p class="rocks__text">Заберись на вершину, не уезжая в горы!
+Скалодром BELKA для всех, кто желает впервые попробовать себя в скалолазании, а так же для спортсменов разного уровня.
+Bключает в себя 2 детские трассы и 3 взрослые.
+Cкалолазы смогут найти подробную схему всех подготовленных трасс, посмотреть категорию сложности.</p>
+    </div>
+  </section>
+<!-- БЛОК ТРАССЫ
+ -->  <section class="routes">
+    <h2 class="title title--white">Трассы</h2>
+
+    <articke class="routes__item trace">
+      <header class="trace__header">
+        <h3 class="trace__title">Трасса #1</h3>
+        <span class="trace__height">Высота 15 м.</span>
+        <span class="trace__age">Возраст 13+</span>
+      </header>
+      <img src="#" alt="" class="trace__img">
+      <p class="trace__text">Трасса для опытных скалолазов.Требуется наличие хорошей физ. подготовки.</p>
+    </article>
+
+    <articke class="routes__item trace trace--dark">
+      <header class="trace__header">
+        <h3 class="trace__title">Трасса #2</h3>
+        <span class="trace__height">Высота 4 м.</span>
+        <span class="trace__age">Возраст 4+</span>
+      </header>
+      <img src="#" alt="" class="trace__img">
+      <p class="trace__text">Для людей с разной физ. подготовкой 
+Различные зацепы и рельефы стены.</p>
+    </article>
+
+    <articke class="routes__item trace">
+      <header class="trace__header">
+        <h3 class="trace__title">Трасса #3</h3>
+        <span class="trace__height">Высота 10 м.</span>
+        <span class="trace__age">Возраст 13+</span>
+      </header>
+      <img src="#" alt="" class="trace__img">
+      <p class="trace__text">Трасса подойтет как для профессионалов,так и для любителей. Необходима хорошая физ. подготовка.</p>
+    </article>
+
+    <articke class="routes__item trace trace--dark">
+      <header class="trace__header">
+        <h3 class="trace__title">Трасса #4</h3>
+        <span class="trace__height">Высота 3 м.</span>
+        <span class="trace__age">Возраст 4+</span>
+      </header>
+      <img src="#" alt="" class="trace__img">
+      <p class="trace__text">Самая невысокая трасса. Специальные  зацепы для детей.</p>
+    </article>
+
+    <articke class="routes__item trace">
+      <header class="trace__header">
+        <h3 class="trace__title">Трасса #5</h3>
+        <span class="trace__height">Высота 8 м.</span>
+        <span class="trace__age">Возраст 13+</span>
+      </header>
+      <img src="#" alt="" class="trace__img">
+      <p class="trace__text">Средняя высота и сложность.Физ. подготовка не обязательна.</p>
+    </article>
+
+  </section>
+<!-- БЛОК АКЦИИ
+ -->  
+ <section class="share">
+    <div class="share__container">
+      <h2 class="title">Акции</h2>
+      <div class="share-offers">
+        <div class="share-img">
+          <img src="#" alt="">
+          <span class="share__share-text">Компаниям от 5 чел.
+скидка 10%</span> 
+        </div>
+        <div class="share-img">
+          <img src="#" alt="">
+          <span class="share__share-text">Многодетным семьям
+скидка 20%</span>
+        </div>
+        <div class="share-img">
+          <img src="#" alt="">
+          <span class="share__share-text">Студентам 
+по карте isic 20%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- БЛОК У НАС
+ -->  
+ <section class="about">
+    <div class="about__container">
+      <div class="about__about-background">
+        <h2 class="title">У нас</h2>
+        <div class="about-offers">
+          <img src="#" alt="" class="about-offers__about-img">
+          <span class="about-offers__about-text">Альпинистское снаряжение  и страховочные устройства французской компании Petzl</span>
+          <img src="#" alt="" class="about-offers__about-img">
+          <span class="about-offers__about-text">Понятная маркировка трасс (ламинированные таблички и зацепки определенного цвета для каждой трассы)</span>
+          <img src="#" alt="" class="about-offers__about-img">
+          <span class="about-offers__about-text">На территории скалодрома всегда находится инструктор, который готов ответить на любой Ваш вопрос! </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- БЛОК АЛЬБОМ 
+ -->  
+ <section class="album">
+    <div class="album__container">
+      <img src="#" alt="" class="album__album-img">
+      <img src="#" alt="" class="album__album-img">
+      <img src="#" alt="" class="album__album-img">
+    </div>
+  </section>
+<!-- ЦЕНЫ
+ -->  
+ <section class="prices">
+    <div class="prices__container">
+      <h2 class="title">Цены</h2>
+    </div>
+    <div class="prices__bacground">
+      <div class="prices__container">
+        <table class="price__table-price">
+          <tr>
+            <th class="price__table-age">&nbsp;</th>
+            <th class="price__table-age">Детский <span class='price__table-age--small'>от 4 лет</span></th>
+            <th class="price__table-age">Взрослый/Детский <span class='price__table-age--small'>от 7 лет</span></th>
+          </tr>
+          <tr>
+            <th colspan='3' class='price__table-age--small'>Прохождение препятствий парка <span class="price__table-age rice__table-age--bold"> 3 часа </span></th>
+          </tr>
+          <tr>
+            <td class="price__table-age">Все трассы 
+Веревочный парк + скалодром</td>
+            <td class="price__table-age">2200 ₽</td>
+            <td class="price__table-age">2500 ₽</td>
+          </tr>
+          <tr>
+            <td class="price__table-age">Скалодром</td>
+            <td class="price__table-age">1000 ₽</td>
+            <td class="price__table-age">1300 ₽</td>
+          </tr>
+          <tr>
+            <td class="price__table-age">Веревочный парк</td>
+            <td class="price__table-age">1200 ₽</td>
+            <td class="price__table-age">1500 ₽</td>
+          </tr>
+          
+          <tr>
+            <th colspan='3' class='price__table-age--small'>Прохождение препятствий парка <span class="price__table-age rice__table-age--bold"> 12 часов </span></th>
+          </tr>
+          <tr>
+            <td class="price__table-age">Все трассы 
+Веревочный парк + скалодром</td>
+            <td class="price__table-age">5500 ₽</td>
+            <td class="price__table-age">6000 ₽</td>
+          </tr>
+          <tr>
+            <td class="price__table-age">Скалодром</td>
+            <td class="price__table-age">3000 ₽</td>
+            <td class="price__table-age">3500 ₽</td>
+          </tr>
+          <tr>
+            <td class="price__table-age">Веревочный парк</td>
+            <td class="price__table-age">4000 ₽</td>
+            <td class="price__table-age">4500 ₽</td>
+          </tr>
+          <tr>
+            <th colspan='3' class='price__table-age'>Прохождение препятствий парка 12 часов</th>
+          </tr>
+          <tr>
+            <th colspan='3' class='price__table-age--left'>Прохождение препятствий парка <span class="price__table-age rice__table-age--center"> 12 часов </span></th>
+          </tr>
+
+        </table>
+      </div>
+      
+      <div class="prices__container">
+        <div class="prices-mobile">
+          <p class="prices-mobile__text">Выберите возраст</p>
+          <p class="prices-mobile__text">Выберите место</p>
+          <p class="prices-mobile__text">Выберите длительность</p>
+          <p class="prices-mobile__total">Стоимость абонемента <span class="prices-mobile__total prices-mobile__total--rub">0 ₽</span></p>
+          <div class="personal">
+            <p class="personal__text">персональный оператор парка<span class="personal__text personal__text--rub">600 ₽/час</span></p>
+            <p class="personal__text">каждый дополнительный час<span class="personal__text personal__text--rub">500 ₽</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="price__container">
+        <button class="prices__order-btn--red btn">Купить билет</button>
+        <a href="" class="prices__order-link">Техника безопасности (PDF)</a>
+      </div>
+
+<!-- БЛОК ОТЗЫВЫ
+ -->      
+ <div class="comment__container">
+        <h2 class="title">Отзывы</h2>
+          <div class="comment-wrap">
+            <div class="comment-people">
+              <img src="#" alt="" class="comment-people__img">
+              <p class="comment-people__name">Алексей</p>
+              <p class="comment-people__personal">Скалолаз-любитель</p>
+              <img src="" alt="" class="comment-people__social">
+              <img src="" alt="" class="comment-people__social">
+              <p class="comment-people__text">Интересные трассы, вкусная еда и самые приветливые тренера!</p>
+            </div>
+
+            <div class="comment-people">
+              <img src="#" alt="" class="comment-people__img">
+              <p class="comment-people__name">Мария</p>
+              <p class="comment-people__personal">Студентка</p>
+              <img src="" alt="" class="comment-people__social">
+              <img src="" alt="" class="comment-people__social">
+              <p class="comment-people__text">Лучший скалодром в городе!</p>
+            </div>
+
+            <div class="comment-people">
+              <img src="#" alt="" class="comment-people__img">
+              <p class="comment-people__name">Екатерина</p>
+              <p class="comment-people__personal">Мама троих детей</p>
+              <img src="" alt="" class="comment-people__social">
+              <img src="" alt="" class="comment-people__social">
+              <p class="comment-people__text">Парк «BELKA» - отличная альтернатива наскучившим походам в кино и кафе.</p>
+            </div>
+
+          </div>
+      </div>
+
+    </div>
+  </section>
+<!-- ПОДВАЛ
+ -->  
+ <footer class="page-footer">
+  <div class="page-footer__container">
+    <div class="page-footer__wrap">
+      <div class="contact">
+        <div class="contacts__location">Выборгское ш.,220</div>
+        <div class="contacts__phone">8(812)999-77-88</div>
+      </div>
+      <nav class="page-footer__nav main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Трассы</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Акции</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Цены</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Отзывы</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-social">
+        <img src="#" alt="" class="footer-social__img">
+        <img src="#" alt="" class="footer-social__img">
+        <img src="#" alt="" class="footer-social__img">
+      </div>
+    </div>
+    <div class="page-footer__map-wrap">
+      <div id="map" class="map"></div>
+    </div>
+    </div>
+  </footer>
+<!-- КНОПКА ДЛЯ ПРОКРУТКИ САЙТА
+ -->  
+ <div class="up">
+    <a href="#" class="up btn"></a>
+  </div>
+<!-- СКРИПТЫ НА JS
+ -->
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoHHJQLvtjHOa3XtjhbTXFO51aGvyffdw&signed_in=true&callback=initMap"></script>
+  <script src="js/script.js"></script>  
 
 </body>
 </html>
