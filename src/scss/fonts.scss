@@ -2,3 +2,48 @@
 //   font-family: ...;
 //   src:url();
 // }
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/subset-OpenSans.woff2') format('woff2'),
+    url('../fonts/subset-OpenSans.woff') format('woff'),
+    url('../fonts/subset-OpenSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url('../fonts/subset-ProximaNova-Bold.woff2') format('woff2'),
+    url('../fonts/subset-ProximaNova-Bold.woff') format('woff'),
+    url('../fonts/subset-ProximaNova-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src: url('../fonts/subset-ProximaNova-Light.woff2') format('woff2'),
+    url('../fonts/subset-ProximaNova-Light.woff') format('woff'),
+    url('../fonts/subset-ProximaNova-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('../fonts/subset-ProximaNova-Regular.woff2') format('woff2'),
+    url('../fonts/subset-ProximaNova-Regular.woff') format('woff'),
+    url('../fonts/subset-ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova-Semibold';
+  src: url('../fonts/subset-ProximaNova-Semibold.woff2') format('woff2'),
+    url('../fonts/subset-ProximaNova-Semibold.woff') format('woff'),
+    url('../fonts/subset-ProximaNova-Semibold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
+}

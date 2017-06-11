@@ -1,0 +1,15 @@
+.contacts{
+	display: inline-block;
+	float: right;
+
+		&__time{
+			display: inline-block;
+		}
+		&__phone{
+			display: inline-block;
+		}
+		
+		&__location{
+			display: inline-block;
+		}
+	}
