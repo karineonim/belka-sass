@@ -1,15 +1,19 @@
 .contacts{
 	display: inline-block;
-	float: right;
+	float: left;
+	padding-left: 15px;
+	box-sizing: border-box;
 
 		&__time{
-			display: inline-block;
+			display: none;
 		}
 		&__phone{
-			display: inline-block;
+			display: block;
+			margin-top: 3px;
 		}
 		
 		&__location{
-			display: inline-block;
+			display: none;
 		}
+	
 	}

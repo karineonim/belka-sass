@@ -24,18 +24,18 @@
 
 <header class="page-header">
     <div class="page-header__contacts">
-      <div class="page-header__container">
+      <div class="page-header__container container">
         <div class="page-header__contacts-wrap">
           <div class="contacts">
             <div class="contacts__time">24 часа</div>
-            <div class="contacts__phone">8(812)999-77-88</div>
+            <div class="contacts__phone"><div class="contacts-phone"></div>8(812)999-77-88</div>
             <div class="contacts__location">Выборгское ш.,220</div>
           </div>
         </div>
         <button class="page-header__nav-toggle main-nav__toggle"></button>
       </div>
     </div>
-    <div class="page-header__container">
+    <div class="page-header__container container">
       <div class='page-header__circle'><a href="#" class="page-header__logo">Belka
       </a> </div> 
 
@@ -56,19 +56,20 @@
   </header>
 <!-- ШАПКА -->
   <section class="rocks">
-    <div class="rocks__container">
-      <h1 class="title">Ска<span title--dec>лод</span>ром</h1>
-      <p class="rocks__text">Заберись на вершину, не уезжая в горы!
+    <div class="rocks__container container">
+      <h1 class="rocks__title title">Ска<span title--dec>лод</span>ром</h1>
+      <p class="rocks__text">Заберись на вершину, не уезжая в горы!<span class='rocks__text--desktop'>
 Скалодром BELKA для всех, кто желает впервые попробовать себя в скалолазании, а так же для спортсменов разного уровня.
 Bключает в себя 2 детские трассы и 3 взрослые.
-Cкалолазы смогут найти подробную схему всех подготовленных трасс, посмотреть категорию сложности.</p>
+Cкалолазы смогут найти подробную схему всех подготовленных трасс, посмотреть категорию сложности.</span></p>
+<button class="rocks__order-btn btn">Купить билет</button>
     </div>
   </section>
 <!-- БЛОК ТРАССЫ
  -->  <section class="routes">
-    <h2 class="title title--white">Тр<span title--dec>асс</span>ы</h2>
+    <h2 class="routes__title title title--white">Тр<span title--dec>асс</span>ы</h2>
 
-    <articke class="routes__item trace">
+    <article class="routes__item trace">
       <header class="trace__header">
         <h3 class="trace__title">Трасса #1</h3>
         <span class="trace__height">Высота 15 м.</span>
@@ -78,7 +79,7 @@ Cкалолазы смогут найти подробную схему всех
       <p class="trace__text">Трасса для опытных скалолазов.Требуется наличие хорошей физ. подготовки.</p>
     </article>
 
-    <articke class="routes__item trace trace--dark">
+    <article class="routes__item trace trace--dark">
       <header class="trace__header">
         <h3 class="trace__title">Трасса #2</h3>
         <span class="trace__height">Высота 4 м.</span>
@@ -89,7 +90,7 @@ Cкалолазы смогут найти подробную схему всех
 Различные зацепы и рельефы стены.</p>
     </article>
 
-    <articke class="routes__item trace">
+    <article class="routes__item trace">
       <header class="trace__header">
         <h3 class="trace__title">Трасса #3</h3>
         <span class="trace__height">Высота 10 м.</span>
@@ -99,7 +100,7 @@ Cкалолазы смогут найти подробную схему всех
       <p class="trace__text">Трасса подойтет как для профессионалов,так и для любителей. Необходима хорошая физ. подготовка.</p>
     </article>
 
-    <articke class="routes__item trace trace--dark">
+    <article class="routes__item trace trace--dark">
       <header class="trace__header">
         <h3 class="trace__title">Трасса #4</h3>
         <span class="trace__height">Высота 3 м.</span>
@@ -109,7 +110,7 @@ Cкалолазы смогут найти подробную схему всех
       <p class="trace__text">Самая невысокая трасса. Специальные  зацепы для детей.</p>
     </article>
 
-    <articke class="routes__item trace">
+    <article class="routes__item trace">
       <header class="trace__header">
         <h3 class="trace__title">Трасса #5</h3>
         <span class="trace__height">Высота 8 м.</span>
@@ -117,6 +118,18 @@ Cкалолазы смогут найти подробную схему всех
       </header>
       <img src="#" alt="" class="trace__img">
       <p class="trace__text">Средняя высота и сложность.Физ. подготовка не обязательна.</p>
+    </article>
+
+
+    <article class="routes__item trace-ride">
+    <div class="trace-ride__img">
+      <img src="../img/trace-img-1.jpg" alt="">
+      <div class="trace-ride__wrap">
+        <h3 class="trace-ride__title">Трасса #1</h3>
+        <span class="trace-ride__height">Высота 15 м.</span>
+        <span class="trace-ride__age">Возраст 13+</span>
+      <p class="trace-ride__text">Трасса для опытных скалолазов.Требуется наличие хорошей физ. подготовки.</p>
+      </div> </div> 
     </article>
 
   </section>

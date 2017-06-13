@@ -2,13 +2,18 @@
 
 @import 'global.scss';
 @import 'fonts.scss';
-// @import 'sprite.scss';
+@import 'normalize.scss';
+@import 'sprite.scss';
 
 @import 'blocks/page-header.scss';
 @import 'blocks/title.scss';
 @import 'blocks/btn.scss';
 @import 'blocks/contacts.scss';
 @import 'blocks/main-nav.scss';
+@import 'blocks/rocks.scss';
+@import 'blocks/routes.scss';
+@import 'blocks/trace.scss';
+@import 'blocks/trace-ride.scss';
 
 
 

@@ -1,36 +1,51 @@
 .page-header {
   width: 100%;
-  &__contacts{
-  	background-color: #e9e9f1;
-  }
 
-  &__container{
+&__contacts{
+  	background-color: $header-grey;
+  	min-height: 30px;
   	position: relative;
-  	margin: 0 auto;
-  	padding: 0 30px;
-  	overflow: hidden;
-  	}
+}
 
-  &__circle{	
-	box-shadow:  0 0 0 1px $darkgrey;
-	width:80px;
- 	height:80px;
- 	display: inline-block;
- 	border-radius:50px;
- 	-moz-border-radius:50px;
- 	-webkit-border-radius:50px;
- 	-khtml-border-radius:50px;
- 	top: 4px;
- 	left: 10px;
-	}	
+&__logo{
+	display: none;
+}
 
-  &__logo{
-  	position: absolute;
-		content: '';
-  	font-family: $family-ProximaS;
-  	display: inline-block;
-	font-size: $font-size + 30px;
-	}
+&__order-btn{
+	display: none;
+}
 
+&__nav{
+	display: none;
+}
 
 }
+
+
+
+
+
+ //  &__container{
+ //  	position: relative;
+ //  	}
+
+ //  &__circle{	
+	// box-shadow:  0 0 0 1px $darkgrey;
+	// width:80px;
+ // 	height:80px;
+ // 	display: inline-block;
+ // 	border-radius:50px;
+ // 	-moz-border-radius:50px;
+ // 	-webkit-border-radius:50px;
+ // 	-khtml-border-radius:50px;
+ // 	top: 4px;
+ // 	left: 10px;
+	// }	
+
+ //  &__logo{
+ //  	position: absolute;
+	// 	content: '';
+ //  	font-family: $family-ProximaS;
+ //  	display: inline-block;
+	// font-size: $font-size + 30px;
+	// }
