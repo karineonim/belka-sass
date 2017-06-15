@@ -9,6 +9,10 @@ a {
   text-decoration: none;
   color: #000; }
 
+img {
+  max-width: 100%;
+  height: auto; }
+
 @font-face {
   font-family: 'OpenSans';
   src: url("../fonts/subset-OpenSans.woff2") format("woff2"), url("../fonts/subset-OpenSans.woff") format("woff"), url("../fonts/subset-OpenSans.ttf") format("truetype");
@@ -433,15 +437,15 @@ p {
   font-family: "ProximaNova-Regualar", sans-serif; }
 
 .contacts {
-  display: inline-block;
   float: left;
   padding-left: 15px;
   box-sizing: border-box; }
   .contacts__time {
     display: none; }
   .contacts__phone {
-    display: block;
-    margin-top: 3px; }
+    display: inline-block;
+    margin-top: 3px;
+    padding-left: 5px; }
   .contacts__location {
     display: none; }
 
@@ -462,7 +466,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  height: calc( 100vh - 40px);
+  min-height: calc( 100vh - 40px);
   width: 100%; }
   .rocks__title {
     padding-top: 80px;
@@ -485,7 +489,7 @@ p {
   background-size: cover;
   background-position: top;
   width: 100%;
-  height: 100vh;
+  height: 530px;
   position: relative; }
 
 .trace {
@@ -558,5 +562,234 @@ p {
   color: #f9f9f9;
   width: 72%;
   text-align: center; }
+
+.share__container {
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  width: 100%; }
+
+.share__title {
+  margin-bottom: 60px; }
+
+.share__wrap {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  width: 100%;
+  height: 100%; }
+
+.share__img {
+  padding-bottom: 15px;
+  position: relative;
+  margin: 0 auto; }
+
+.share__text {
+  position: absolute;
+  content: '';
+  left: 0;
+  color: #fff;
+  font-family: "ProximaNova-Bold", sans-serif;
+  font-size: 24px;
+  bottom: 25px;
+  left: 3%;
+  white-space: pre-line;
+  text-align: left; }
+
+.share-offers {
+  position: relative;
+  bottom: 10px; }
+  .share-offers__title {
+    position: absolute;
+    content: '';
+    width: 100%;
+    top: -100px; }
+
+.about__container {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.about__about-background {
+  background-image: url(../img/about-sm.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
+.about__title {
+  margin-bottom: 40px;
+  margin-top: 40px; }
+
+.about__wrap {
+  width: 293px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.about__wrap:last-child {
+  margin-bottom: 40px; }
+
+.about__about-text {
+  color: #fff;
+  width: 202px;
+  padding-left: 5px;
+  padding-right: 10px;
+  font-size: 14px; }
+
+.about__circle {
+  position: absolute;
+  box-shadow: 0 0 0 2px #fff;
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -khtml-border-radius: 50px;
+  top: -8px;
+  left: -8px; }
+
+.about-question {
+  background-image: url(../img/sprite-03582744628676602.png);
+  background-position: 0px 0px;
+  width: 55px;
+  height: 42px; }
+
+.about-rope {
+  background-image: url(../img/sprite-03582744628676602.png);
+  background-position: -59px 0px;
+  width: 41px;
+  height: 42px; }
+
+.about-sign {
+  background-image: url(../img/sprite-03582744628676602.png);
+  background-position: 0px -46px;
+  width: 39px;
+  height: 42px; }
+
+.comment-instagram {
+  background-image: url(../img/sprite-03582744628676602.png);
+  background-position: -136px 0px;
+  width: 21px;
+  height: 21px; }
+
+.comment-vk {
+  background-image: url(../img/sprite-03582744628676602.png);
+  background-position: -36px -92px;
+  width: 30px;
+  height: 18px; }
+
+.contacts-location {
+  background-image: url(../img/sprite-03582744628676602.png);
+  background-position: -82px -46px;
+  width: 13px;
+  height: 18px; }
+
+.contacts-phone {
+  background-image: url(../img/sprite-03582744628676602.png);
+  background-position: -136px -94px;
+  width: 16px;
+  height: 16px; }
+
+.contacts-time {
+  background-image: url(../img/sprite-03582744628676602.png);
+  background-position: -136px -25px;
+  width: 19px;
+  height: 19px; }
+
+.footer-instagram {
+  background-image: url(../img/sprite-03582744628676602.png);
+  background-position: -104px -59px;
+  width: 24px;
+  height: 24px; }
+
+.footer-phone {
+  background-image: url(../img/sprite-03582744628676602.png);
+  background-position: -136px -48px;
+  width: 18px;
+  height: 18px; }
+
+.footer-placeholder {
+  background-image: url(../img/sprite-03582744628676602.png);
+  background-position: -136px -70px;
+  width: 14px;
+  height: 20px; }
+
+.footer-twitter {
+  background-image: url(../img/sprite-03582744628676602.png);
+  background-position: -104px 0px;
+  width: 28px;
+  height: 24px; }
+
+.footer-vk {
+  background-image: url(../img/sprite-03582744628676602.png);
+  background-position: 0px -92px;
+  width: 32px;
+  height: 19px; }
+
+.routes-avatar {
+  background-image: url(../img/sprite-03582744628676602.png);
+  background-position: -104px -28px;
+  width: 24px;
+  height: 27px; }
+
+.routes-mountain {
+  background-image: url(../img/sprite-03582744628676602.png);
+  background-position: -43px -46px;
+  width: 35px;
+  height: 22px; }
+
+.contacts-phone {
+  display: inline-block; }
+
+.contacts-location {
+  display: none; }
+
+.contacts-time {
+  display: none; }
+
+.about-rope {
+  display: inline-block;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+  margin-left: 10px; }
+
+.about-sign {
+  display: inline-block;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+  margin-left: 9px; }
+
+.about-question {
+  display: inline-block;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+  margin-left: 14px; }
 
 /*# sourceMappingURL=style.css.map */
