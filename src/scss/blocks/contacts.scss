@@ -1,5 +1,4 @@
 .contacts{
-	display: inline-block;
 	float: left;
 	padding-left: 15px;
 	box-sizing: border-box;
@@ -8,8 +7,9 @@
 			display: none;
 		}
 		&__phone{
-			display: block;
+			display: inline-block;
 			margin-top: 3px;
+			padding-left: 5px;
 		}
 		
 		&__location{

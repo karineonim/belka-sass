@@ -27,9 +27,9 @@
       <div class="page-header__container container">
         <div class="page-header__contacts-wrap">
           <div class="contacts">
-            <div class="contacts__time">24 часа</div>
-            <div class="contacts__phone"><div class="contacts-phone"></div>8(812)999-77-88</div>
-            <div class="contacts__location">Выборгское ш.,220</div>
+            <div class="contacts-time"></div><div class="contacts__time">24 часа</div>
+            <div class="contacts-phone"></div><div class="contacts__phone">8(812)999-77-88</div>
+            <div class="contacts-location"></div><div class="contacts__location">Выборгское ш.,220</div>
           </div>
         </div>
         <button class="page-header__nav-toggle main-nav__toggle"></button>
@@ -136,41 +136,63 @@ Cкалолазы смогут найти подробную схему всех
 <!-- БЛОК АКЦИИ
  -->  
  <section class="share">
-    <div class="share__container">
-      <h2 class="title">А<span title--dec>кци</span>и</h2>
+    <div class="share__container container">
+      
       <div class="share-offers">
-        <div class="share-img">
-          <img src="#" alt="">
-          <span class="share__share-text">Компаниям от 5 чел.
+      <h2 class="share-offers__title title">А<span title--dec>кци</span>и</h2> 
+      </div>
+
+      <div class="share__wrap">
+        <div class="share__img">
+          <picture>
+ <source srcset="../img/share-lg-1.jpg" media="(min-width: 1200px)">
+  <source srcset="../img/share-md-1.jpg" media="(min-width: 768px)">
+  <img src="../img/share-sm-1.jpg" alt="SM">
+</picture>
+          <span class="share__text">Компаниям от 5 чел.
 скидка 10%</span> 
         </div>
-        <div class="share-img">
-          <img src="#" alt="">
-          <span class="share__share-text">Многодетным семьям
+        <div class="share__img">
+           <picture>
+ <source srcset="../img/share-lg-2.jpg" media="(min-width: 1200px)">
+  <source srcset="../img/share-md-2.jpg" media="(min-width: 768px)">
+  <img src="../img/share-sm-2.jpg" alt="LG">
+</picture>
+          <span class="share__text">Многодетным семьям
 скидка 20%</span>
         </div>
-        <div class="share-img">
-          <img src="#" alt="">
-          <span class="share__share-text">Студентам 
+        <div class="share__img">
+                    <picture>
+ <source srcset="../img/share-lg-3.jpg" media="(min-width: 1200px)">
+  <source srcset="../img/share-md-3.jpg" media="(min-width: 768px)">
+  <img src="../img/share-sm-3.jpg" alt="LG">
+</picture>
+          <span class="share__text">Студентам 
 по карте isic 20%</span>
-        </div>
+     </div>  
       </div>
     </div>
   </section>
 <!-- БЛОК У НАС
  -->  
  <section class="about">
-    <div class="about__container">
+    <div class="about__container container">
       <div class="about__about-background">
-        <h2 class="title">У<span title--dec> на</span>с</h2>
-        <div class="about-offers">
-          <img src="#" alt="" class="about-offers__about-img">
-          <span class="about-offers__about-text">Альпинистское снаряжение  и страховочные устройства французской компании Petzl</span>
-          <img src="#" alt="" class="about-offers__about-img">
-          <span class="about-offers__about-text">Понятная маркировка трасс (ламинированные таблички и зацепки определенного цвета для каждой трассы)</span>
-          <img src="#" alt="" class="about-offers__about-img">
-          <span class="about-offers__about-text">На территории скалодрома всегда находится инструктор, который готов ответить на любой Ваш вопрос! </span>
-        </div>
+        <h2 class="about__title title title--white">У<span title--dec> на</span>с</h2>
+        
+          <div class="about__wrap">
+          <div class="about-rope"><div class="about__circle"></div></div>
+          <span class="about__about-text">Альпинистское снаряжение  и страховочные устройства французской компании Petzl</span>
+          </div>
+          <div class="about__wrap">
+          <div class="about-sign"><div class="about__circle"></div></div>
+          <span class="about__about-text">Понятная маркировка трасс (ламинированные таблички и зацепки определенного цвета для каждой трассы)</span>
+          </div>
+          <div class="about__wrap">
+          <div class="about-question"><div class="about__circle"></div></div>
+          <span class="about__about-text">На территории скалодрома всегда находится инструктор, который готов ответить на любой Ваш вопрос!</span>
+          </div>
+        
       </div>
     </div>
   </section>

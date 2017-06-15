@@ -1,0 +1,14 @@
+.share-offers{
+	position: relative;
+	bottom: 10px;
+
+	&__title{
+		position: absolute;
+		content: '';
+		width: 100%;
+		top: -100px;
+	}
+
+	
+
+}

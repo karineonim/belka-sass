@@ -1,0 +1,36 @@
+@include sprites($spritesheet-sprites);
+.contacts-phone{
+				display: inline-block;
+			}
+
+.contacts-location{
+	display: none;
+}
+
+.contacts-time{
+	display: none;
+}
+
+.about-rope{
+	display: inline-block;
+	align-self: center;
+	position: relative;
+	margin-left: 10px;
+			
+}
+
+.about-sign{
+	display: inline-block;
+	align-self: center;
+	position: relative;
+	margin-left: 9px;
+	
+}
+
+.about-question{
+	display: inline-block;
+	align-self: center;
+	position: relative;
+	margin-left: 14px;
+	
+}
