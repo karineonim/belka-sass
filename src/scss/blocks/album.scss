@@ -1,0 +1,21 @@
+.album{
+
+	&__container{
+	padding-left: 15px;
+	padding-right: 15px;
+	box-sizing: border-box;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	}
+
+	&__wrap{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-around;
+	}
+
+}

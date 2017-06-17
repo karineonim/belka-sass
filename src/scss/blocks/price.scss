@@ -1,0 +1,21 @@
+.price{
+	table{
+		display: none;
+	}
+
+	&__container{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	&__title{
+		margin-bottom: 55px;
+	}
+
+	&__order-link{
+		display: block;
+		text-align: center;
+		text-decoration: underline;
+		padding-bottom: 30px;
+	}
+}

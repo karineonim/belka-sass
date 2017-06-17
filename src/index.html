@@ -156,7 +156,7 @@ Cкалолазы смогут найти подробную схему всех
            <picture>
  <source srcset="../img/share-lg-2.jpg" media="(min-width: 1200px)">
   <source srcset="../img/share-md-2.jpg" media="(min-width: 768px)">
-  <img src="../img/share-sm-2.jpg" alt="LG">
+  <img src="../img/share-sm-2.jpg" alt="SM">
 </picture>
           <span class="share__text">Многодетным семьям
 скидка 20%</span>
@@ -165,7 +165,7 @@ Cкалолазы смогут найти подробную схему всех
                     <picture>
  <source srcset="../img/share-lg-3.jpg" media="(min-width: 1200px)">
   <source srcset="../img/share-md-3.jpg" media="(min-width: 768px)">
-  <img src="../img/share-sm-3.jpg" alt="LG">
+  <img src="../img/share-sm-3.jpg" alt="SM">
 </picture>
           <span class="share__text">Студентам 
 по карте isic 20%</span>
@@ -200,20 +200,34 @@ Cкалолазы смогут найти подробную схему всех
 <!-- БЛОК АЛЬБОМ 
  -->  
  <section class="album">
-    <div class="album__container">
-      <img src="#" alt="" class="album__album-img">
-      <img src="#" alt="" class="album__album-img">
-      <img src="#" alt="" class="album__album-img">
+    <div class="album__container container">
+    <div class="album__wrap">
+      <picture>
+ <source srcset="../img/album-img-1.jpg" media="(min-width: 1200px)" class='album__picture'>
+  <source srcset="../img/album-img-1.jpg" media="(min-width: 768px)" class='album__picture'>
+  <img src="../img/album-img-1.jpg" alt="SM" class='album__picture'>
+</picture>
+      <picture>
+ <source srcset="../img/album-img-2.jpg" media="(min-width: 1200px)" class='album__picture'>
+  <source srcset="../img/album-img-2.jpg" media="(min-width: 768px)" class='album__picture'>
+  <img src="../img/album-img-2.jpg" alt="SM">
+</picture>
+      <picture>
+ <source srcset="../img/album-img-3.jpg" media="(min-width: 1200px)" class='album__picture'>
+  <source srcset="../img/album-img-3.jpg" media="(min-width: 768px)" class='album__picture'>
+  <img src="../img/album-img-3.jpg" alt="SM" class='album__picture'>
+</picture>
+    </div>
     </div>
   </section>
 <!-- ЦЕНЫ
  -->  
- <section class="prices">
-    <div class="prices__container">
-      <h2 class="title">Ц<span title--dec>ен</span>ы</h2>
+ <section class="price">
+    <div class="price__container container">
+      <h2 class="price__title title">Ц<span title--dec>ен</span>ы</h2>
     </div>
-    <div class="prices__bacground">
-      <div class="prices__container">
+    <div class="price__bacground">
+      <div class="price__container container">
         <table class="price__table-price">
           <tr>
             <th class="price__table-age">&nbsp;</th>
@@ -269,27 +283,31 @@ Cкалолазы смогут найти подробную схему всех
         </table>
       </div>
       
-      <div class="prices__container">
-        <div class="prices-mobile">
-          <p class="prices-mobile__text">Выберите возраст</p>
-          <p class="prices-mobile__text">Выберите место</p>
-          <p class="prices-mobile__text">Выберите длительность</p>
-          <p class="prices-mobile__total">Стоимость абонемента <span class="prices-mobile__total prices-mobile__total--rub">0 ₽</span></p>
-          <div class="personal">
-            <p class="personal__text">персональный оператор парка<span class="personal__text personal__text--rub">600 ₽/час</span></p>
-            <p class="personal__text">каждый дополнительный час<span class="personal__text personal__text--rub">500 ₽</span></p>
+     
+        <div class="price-mobile">
+          <p class="price-mobile__text">Выберите возраст</p>
+          <p class="price-mobile__text">Выберите место</p>
+          <p class="price-mobile__text">Выберите длительность</p>
+          <p class="price-mobile__total">Стоимость абонемента <span class="price-mobile__rub">0 ₽</span></p>
+
+        <div class="price__container container">
+          <div class="price-mobile__personal">
+            <p class="price-mobile__personal-text">персональный оператор парка
+            </p><span class="price-mobile__personal-rub">600 ₽/час</span>
+            <p class="price-mobile__personal-text">каждый дополнительный час
+            </p><span class="price-mobile__personal-rub">500 ₽</span>
           </div>
         </div>
       </div>
 
-      <div class="price__container">
-        <button class="prices__order-btn--red btn">Купить билет</button>
-        <a href="" class="prices__order-link">Техника безопасности (PDF)</a>
+      <div class="price__container container">
+        <button class="price__order-btn btn btn--red">Купить билет</button>
+        <a href="" class="price__order-link">Техника безопасности (PDF)</a>
       </div>
 
 <!-- БЛОК ОТЗЫВЫ
  -->      
- <div class="comment__container">
+ <div class="comment__container container">
         <h2 class="title">О<span title--dec>тзыв</span>ы</h2>
           <div class="comment-wrap">
             <div class="comment-people">

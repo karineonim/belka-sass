@@ -1,0 +1,58 @@
+.price-mobile{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+
+
+	&__text{
+		width: 100%;
+		text-align: center;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		border-top: 2px solid;
+		font-size: $font-size + 2px;
+	}
+	
+	&__total{
+		width: 100%;
+		text-align: left;
+		padding-left: 15px;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		border-top: 2px solid;
+		background-color: $price;
+		margin-bottom: 5px;
+		box-sizing: border-box;
+		position: relative;
+	}
+
+	&__rub{
+		position: absolute;
+		right: 15px;	
+	}
+
+	&__personal{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	
+	&__personal-text{
+		font-size: $font-size - 4px;
+		flex-grow: 2;
+		width: 85%;
+	}
+
+	&__personal-rub{
+			text-align: left;
+			font-size: $font-size - 4px;
+			width: 15%;
+		}
+}

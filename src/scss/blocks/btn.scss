@@ -3,4 +3,13 @@ padding: 10px 25px;
 background: transparent;
 border: 1px solid black;
 font-family: $family-ProximaR;
+
+&--red{
+	background-color: $btn-red;
+	color: $white;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
 }

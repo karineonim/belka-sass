@@ -4,7 +4,7 @@
 @import 'fonts.scss';
 @import 'normalize.scss';
 @import 'sprite.scss';
-
+@import 'blocks/sprite.scss';
 @import 'blocks/page-header.scss';
 @import 'blocks/title.scss';
 @import 'blocks/btn.scss';
@@ -17,7 +17,10 @@
 @import 'blocks/share.scss';
 @import 'blocks/share-offers.scss';
 @import 'blocks/about.scss';
-@import 'blocks/sprite.scss';
+@import 'blocks/album.scss';
+@import 'blocks/price.scss';
+@import 'blocks/price-mobile.scss';
+
 
 
 
