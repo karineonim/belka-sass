@@ -3,7 +3,6 @@ $(document).ready(function(){
 // А при вызове функции initMap событие загрузки страницы еще не настало.
 // Пишите такие фрагменты карты прямо в разметке!
 
-
 // // Определение точных координат: http://www.mapcoordinates.net/ru
 // // Примеры кода: https://developers.google.com/maps/documentation/javascript/examples/?hl=ru
 
@@ -15,8 +14,6 @@ $(document).ready(function(){
 // 30.318733,
 //     '<div class="some-class"><h2>Заголовок</h2><p>Лорем ипсум долор хрень какая-то, но видно, что это самая обычная разметка</p></div>'
 //   ],
-
-// ];
 
 // // Стилизация карты
 // // Подробнее о стилях: https://developers.google.com/maps/documentation/javascript/styling?hl=ru
