@@ -23,19 +23,7 @@ var mapStyle = [{
 // Будущее инфоокно, возникающее по клику на маркере карты
 var mapInfoWindow = null;
 
-// Инициализация карты (вызывается после загрузки скрипта)
-function initMap() {
-  // Найдем тег карты по id
-  var mapDiv = document.getElementById('map');
-  // Определим центр карты
-  var center = {lat: 59.95016094, lng: 30.31612718};
-  // Создадим объект карты
-  var map = new google.maps.Map(mapDiv, {
-    zoom: 13,
-    center: center,
-    disableDefaultUI: true,
-    styles: mapStyle
-  });
+ 
   //  Вызовем функцию, которая расставит маркеры
   setMapMarkers(map);
   // Создадим объект инфоокна
