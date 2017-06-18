@@ -1,0 +1,26 @@
+.up{
+	position: relative;
+}
+
+.arrow{
+  position: absolute;
+  border-left: 2px solid $white;
+  height: 20px;
+  width: 2px;
+  transform: rotate(45deg);
+  right: 28px;
+  bottom: 15px;
+
+}
+.arrow:before{
+position: absolute;
+  content: '';
+  border-left: 2px solid $white;
+  height: 20px;
+  width: 2px;
+  transform: rotate(90deg);
+  display: inline-block;
+  left: 6px;
+  bottom: 9px;
+}
+

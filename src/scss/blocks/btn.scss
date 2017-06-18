@@ -14,4 +14,14 @@ font-family: $family-ProximaR;
 	position: relative;
 	z-index: 2;
 }
+
+&--circle{
+	position: absolute;
+	border: 2px solid $white;;
+	border-radius:50px;
+ 	height:28px;
+ 	bottom: 20px;
+ 	right: 15px;
+ 	position: fixed;
+}
 }
