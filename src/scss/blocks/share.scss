@@ -38,6 +38,12 @@
     	align-self: center;
 	}
 
+	img{
+		height: 243px;
+		width: 100%;
+		object-fit: cover;
+	}
+
 	&__text{
 		position: absolute;
 		content: '';

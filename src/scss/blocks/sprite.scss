@@ -11,7 +11,7 @@
 	display: none;
 }
 
-.about-rope{
+.about-rope-sm{
 	display: inline-block;
 	align-self: center;
 	position: relative;
@@ -19,7 +19,7 @@
 			
 }
 
-.about-sign{
+.about-sign-sm{
 	display: inline-block;
 	align-self: center;
 	position: relative;
@@ -27,10 +27,18 @@
 	
 }
 
-.about-question{
+.about-question-sm{
 	display: inline-block;
 	align-self: center;
 	position: relative;
 	margin-left: 14px;
 	
+}
+
+.comment-instagram{
+	display: inline-block;
+}
+
+.comment-vk{
+	display: inline-block;
 }

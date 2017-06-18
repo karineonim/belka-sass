@@ -27,6 +27,7 @@
 		margin-bottom: 5px;
 		box-sizing: border-box;
 		position: relative;
+		z-index: 2;
 	}
 
 	&__rub{
@@ -42,17 +43,23 @@
 		display: flex;
 		flex-wrap: wrap;
 		width: 100%;
+		position: relative;
+		z-index: 2;
 	}
 	
 	&__personal-text{
 		font-size: $font-size - 4px;
 		flex-grow: 2;
-		width: 85%;
+		width: 83%;
+		position: relative;
+		z-index: 2;
 	}
 
 	&__personal-rub{
 			text-align: left;
 			font-size: $font-size - 4px;
-			width: 15%;
+			width: 17%;
+			position: relative;
+			z-index: 2;
 		}
 }

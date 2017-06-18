@@ -1,0 +1,36 @@
+.comment{
+	position: relative;
+	
+	&__background{
+	background-image: url(../img/prices-sm.jpg);
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	height: 660px;
+	width: 100%;
+	position: absolute;
+	// bottom: -230px;
+	margin-top: -70px;
+	z-index: 1;
+	}
+
+	&__title{
+		position: relative;
+		z-index: 3;
+		padding-top: 20px;
+	}
+
+	&__wrap{
+	background: $comment;
+	opacity: 0.5;
+	position: relative;
+	z-index: 2;
+	min-height: 560px;
+	margin-top: -70px;
+	margin-left: 15px;
+	margin-right: 15px;
+	}
+
+
+}
