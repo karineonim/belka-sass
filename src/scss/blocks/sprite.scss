@@ -1,14 +1,29 @@
 @include sprites($spritesheet-sprites);
 .contacts-phone{
-				display: inline-block;
+	display: inline-block;
+	@media(min-width: '$screen-sm'){
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 3px;
+}
 			}
 
 .contacts-location{
 	display: none;
+	@media(min-width: '$screen-sm'){
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 3px;
 }
+}
+
 
 .contacts-time{
 	display: none;
+		@media(min-width: '$screen-sm'){
+	display: inline-block;
+	
+}
 }
 
 .about-rope-sm{

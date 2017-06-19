@@ -21,6 +21,11 @@
 	
 	&--desktop{
 		display: none;
+
+		@media(min-width: '$screen-sm'){
+			display: inline-block;
+			white-space: pre;
+		}
 	}
 	}
 
