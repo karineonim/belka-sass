@@ -13,6 +13,38 @@
 @media(min-width: '$screen-sm'){
 	display: none;
 }
-
 }
+
+@media(min-width: '$screen-sm'){
+	display: block;
+	margin-top: -20px;
+	&__list{
+		position: relative;
+			}
+
+	&__item{
+		position: relative;
+		content: '';
+		display: inline-block;
+		float: right;
+		padding-top: 20px;
+		z-index: 2;
+		padding-right: 15px;
+		padding-left: 35px;
+
+		&--active{
+
+			// border-bottom: 1px solid;
+			// width: 10px;
+			// float: right;
+		}
+	}
+
+	&__link{
+		// position: absolute;
+		
+		z-index: 2;
+	}
+}
+
 }
