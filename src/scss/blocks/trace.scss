@@ -11,6 +11,10 @@
 
 	&--dark{
 	background-image: linear-gradient(to top, $trace-dark 50%, $trace-dark 51%);
+
+	.trace__text{
+		margin-top: 25px;
+	}
 	}
 
 	&__title{
