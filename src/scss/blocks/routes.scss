@@ -8,8 +8,20 @@
 	min-height: 530px; 
 	position: relative;
 
-	&__title{
-		margin-bottom: 50px;
-		padding-bottom: 50px;
+	@media(min-width: '$screen-sm'){
+	min-height: 800px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	}
+
+	&__title{
+		width: 100%;
+	}
+
+
 }

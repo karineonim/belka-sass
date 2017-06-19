@@ -18,6 +18,10 @@
 
 	&__title{
 		margin-bottom: 60px;
+
+		@media(min-width: '$screen-sm'){
+			margin-bottom: 0;
+		}
 	}
 
 	&__wrap{
@@ -32,7 +36,7 @@
 	}
 
 	&__img{
-		padding-bottom: 15px;
+		padding-bottom: 8px;
     	position: relative;
     	margin: 0 auto;
     	align-self: center;
@@ -51,7 +55,7 @@
 		color: $white;
 		font-family: $family-ProximaB;
 		font-size: 24px;
-		bottom: 25px;
+		bottom: 30px;
 		left: 3%;
 		white-space: pre-line;
 		text-align: left;

@@ -8,6 +8,7 @@
     top: 45%;
     left: 50%;
     margin: -125px 0 0 -125px;
+
     }
 
      img {
@@ -16,10 +17,11 @@
         display: block;
         margin: 0 auto;
         border: none;
+
     }
 
     &__wrap:before{
-    	background-color: $black;
+    	background-image: linear-gradient(to top, $trace-dark 50%, $trace-dark 51%);
     	position: absolute;
     	content: '';
     	bottom: -28%;
@@ -39,6 +41,7 @@
 		left: 20%;
 		font-size: 30px;
 		font-family: $family-ProximaB;
+        padding-top: 28px;
     }
 
     &__height{
@@ -74,6 +77,10 @@
 		color: $traces-text;
 		width: 72%;
 		text-align: center;	
+    }
+
+    @media(min-width: '$screen-sm'){
+    display: none;
     }
 
 }

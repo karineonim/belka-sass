@@ -1,3 +1,52 @@
 .trace{
 	display: none;
+
+	@media(min-width: '$screen-sm'){
+	display: inline-block;
+	min-height: 600px;
+	width: 210px;
+	background-image: linear-gradient(to top, $trace-color 50%, $trace-grad 51%);
+	margin-bottom: 70px;
+	margin-left: 15px;
+
+	&--dark{
+	background-image: linear-gradient(to top, $trace-dark 50%, $trace-dark 51%);
+	}
+
+	&__title{
+		color: $traces-title;
+		text-align: center;
+		font-family: $family-ProximaB;
+		font-size: $font-size + 14px;
+		padding-top: 15px;
+		padding-bottom: 12px;
+	}
+	&__height{
+		display: block;
+		color: $traces-title;
+		text-align: center;
+		font-size: $font-size + 2px;
+	}
+
+	&__age{
+		display: block;
+		color: $traces-title;
+		text-align: center;
+		font-size: $font-size + 2px;
+		padding-bottom: 20px;
+	}
+
+	&__text{
+		display: block;
+		color: $traces-text;
+		text-align: center;
+		font-size: $font-size + 2px;
+		// padding-top: 20px;
+		white-space: pre;
+		padding-top: 20px;
+		padding-bottom: 15px;
+		vertical-align: middle;
+	}
+
+	}
 }
