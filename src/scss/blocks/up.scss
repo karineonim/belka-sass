@@ -11,9 +11,13 @@
   right: 28px;
   bottom: 15px;
 
+  // @media(min-width: '$screen-sm'){
+  //   left: -628px;
+  // }
+
 }
 .arrow:before{
-position: absolute;
+  position: absolute;
   content: '';
   border-left: 2px solid $white;
   height: 20px;

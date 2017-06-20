@@ -1,19 +1,23 @@
 .footer-nav{
-margin-bottom: 30px;
+	margin-bottom: 30px;
 
-&__item{
-	float: list;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	margin-left: -15px;
-	margin-bottom: 7px;
-}
+	&__item{
+		float: list;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		margin-left: -15px;
+		margin-bottom: 7px;
 
-&__link{
-	color: $footer-text;
-	text-transform: uppercase;
-}
+		@media(min-width: '$screen-sm'){
+			margin-bottom: 20px;
+		}
+	}
+
+	&__link{
+		color: $footer-text;
+		text-transform: uppercase;
+	}
 }

@@ -1,27 +1,39 @@
 .btn{
-padding: 10px 25px;
-background: transparent;
-border: 1px solid black;
-font-family: $family-ProximaR;
+	padding: 10px 25px;
+	background: transparent;
+	border: 1px solid black;
+	font-family: $family-ProximaR;
 
-&--red{
-	background-color: $btn-red;
-	color: $white;
-	display: block;
-	margin: 0 auto;
-	margin-top: 30px;
-	margin-bottom: 15px;
-	position: relative;
-	z-index: 2;
-}
+	&--red{
+		background-color: $btn-red;
+		color: $white;
+		display: block;
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-bottom: 15px;
+		position: relative;
+		z-index: 2;
+		border: 0;
 
-&--circle{
-	position: absolute;
-	border: 2px solid $white;;
-	border-radius:50px;
- 	height:28px;
- 	bottom: 20px;
- 	right: 15px;
- 	position: fixed;
-}
+		@media(min-width: '$screen-sm'){
+			display: inline-block;
+			margin-top: 50px;
+			margin-left: 28%;
+		}
+	}
+
+	&--circle{
+		position: absolute;
+		border: 2px solid $white;;
+		border-radius:50px;
+ 		height:28px;
+ 		bottom: 20px;
+ 		// right: 15px;
+ 		left: 85%;
+ 		position: fixed;
+
+ 		@media(min-width: '$screen-sm'){
+ 		left: 15px;
+ 		}
+	}
 }

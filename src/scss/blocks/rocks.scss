@@ -20,6 +20,7 @@
 		margin-right: 15px;
 		padding-bottom: 40px;
 		width: 70%;
+		
 		@media(min-width: '$screen-sm'){
 			padding-bottom: 0;
 			width: 90%;
@@ -27,23 +28,22 @@
 			margin-bottom: 0;
 		}
 
+			&--desktop{
+				display: none;
 
-	
-	&--desktop{
-		display: none;
-
-		@media(min-width: '$screen-sm'){
-			display: block;
-			white-space: pre;
-			margin-top: -23px;
-			margin-bottom: 50px;
-		}
-	}
+				@media(min-width: '$screen-sm'){
+					display: block;
+					white-space: pre;
+					margin-top: -23px;
+					margin-bottom: 50px;
+				}
+			}
 	}
 
 	&__order-btn{
 		margin-left: 15px;
 		margin-bottom: 80px;
+
 		@media(min-width: '$screen-sm'){
 			margin-bottom: 260px;
 		}

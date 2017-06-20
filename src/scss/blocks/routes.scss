@@ -1,5 +1,5 @@
 .routes{
-		background-image: url(../img/routes.jpg);
+	background-image: url(../img/routes.jpg);
 	background-position: center; 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -9,19 +9,17 @@
 	position: relative;
 
 	@media(min-width: '$screen-sm'){
-	min-height: 800px;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+		min-height: 800px;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 	&__title{
 		width: 100%;
 	}
-
-
 }

@@ -1,6 +1,4 @@
 .comment-people{
-	// border: 2px solid;
-	// height: 410px;
 	position: absolute;
 	top: 145px;
 	left: 10%;
@@ -14,6 +12,17 @@
 	justify-content: center;
 	z-index: 3;
 	align-items: center;
+
+	@media(min-width: '$screen-sm'){
+		position: relative;
+		display: inline-block;
+		width: 30%;
+		vertical-align: top;
+		margin: 0 auto;
+		text-align: center;
+		left: 5%;
+	}
+
 
 	&__img{
 		width: 155px;
@@ -33,5 +42,9 @@
 	&__text{
 		padding-top: 15px;
 		width: 165px;
+
+		@media(min-width: '$screen-sm'){
+		width: 100%;
+		}
 	}
 }

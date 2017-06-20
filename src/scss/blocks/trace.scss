@@ -2,20 +2,20 @@
 	display: none;
 
 	@media(min-width: '$screen-sm'){
-	display: inline-block;
-	min-height: 600px;
-	width: 210px;
-	background-image: linear-gradient(to top, $trace-color 50%, $trace-grad 51%);
-	margin-bottom: 70px;
-	margin-left: 15px;
+		display: inline-block;
+		min-height: 600px;
+		width: 210px;
+		background-image: linear-gradient(to top, $trace-color 50%, $trace-grad 51%);
+		margin-bottom: 70px;
+		margin-left: 15px;
 
-	&--dark{
-	background-image: linear-gradient(to top, $trace-dark 50%, $trace-dark 51%);
+			&--dark{
+				background-image: linear-gradient(to top, $trace-dark 50%, $trace-dark 51%);
 
-	.trace__text{
-		margin-top: 25px;
-	}
-	}
+				.trace__text{
+					margin-top: 25px;
+				}
+			}
 
 	&__title{
 		color: $traces-title;
@@ -25,6 +25,7 @@
 		padding-top: 15px;
 		padding-bottom: 12px;
 	}
+
 	&__height{
 		display: block;
 		color: $traces-title;
@@ -45,12 +46,10 @@
 		color: $traces-text;
 		text-align: center;
 		font-size: $font-size + 2px;
-		// padding-top: 20px;
 		white-space: pre;
 		padding-top: 20px;
 		padding-bottom: 15px;
 		vertical-align: middle;
 	}
-
 	}
 }

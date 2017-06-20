@@ -1,8 +1,16 @@
 .price{
-	table{
-		display: none;
-	}
 
+	@media(min-width: '$screen-sm'){
+		&__background{
+			background-image: url(../img/prices.jpg);
+			background-position: top;
+			background-position: 0 130px; 
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+		}
+	}
+	
 	&__container{
 		padding-left: 15px;
 		padding-right: 15px;
@@ -10,6 +18,10 @@
 
 	&__title{
 		margin-bottom: 55px;
+
+		@media(min-width: '$screen-sm'){
+			margin-bottom: 30px;
+		}
 	}
 
 	&__order-link{
@@ -19,5 +31,101 @@
 		padding-bottom: 30px;
 		position: relative;
 		z-index: 2;
+
+		@media(min-width: '$screen-sm'){
+			display: inline-block;
+			padding-left: 90px;
+		}
+	}
+
+	&__table-price{
+	display: none;
+
+	@media(min-width: '$screen-sm'){
+		display: inline-block;
+		width: 100%;		
+	}
+	}
+
+	&__table-age{
+	@media(min-width: '$screen-sm'){
+		background-color: $table-age;
+		text-transform: uppercase;
+		color: $white;
+		font-size: $font-size + 2px;
+		text-align: center;
+		width: 10%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+		&--small{
+			text-transform: lowercase;
+			display: block;
+		}
+
+		&--desktop{
+			display: none;
+		}
+	}
+
+	}
+
+	&__table-time{
+		background-color: $table-time;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		color: $rocks-text;
+		text-align: center;
+		font-size: $font-size + 2px;
+		text-align: right;
+		padding-right: 10px;
+
+			&--bold{
+				font-family: $family-ProximaB;
+			}	
+	}
+
+	&__table-trace{
+		background-color: $table-age;
+		width: 22%;
+		color: $white;
+		text-align: center;
+		white-space: pre;
+		text-transform: uppercase;
+		padding-top: 15px;
+		padding-bottom: 15px;	
+	}
+
+	&__table-price{
+		width: 50%;
+		color: $rocks-text;
+		text-align: center;
+		white-space: pre;
+		text-transform: uppercase;	
+	}
+
+	&__table-hour{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		color: $rocks-text;
+		font-size: $font-size + 2px;
+	}
+
+	&__table-personal{
+		padding-top: 15px;
+		padding-bottom: 15px;
+		color: $rocks-text;
+		font-size: $font-size + 2px;
+		background-color: $table-time;
+	}
+
+	&__table-rub{
+		text-align: center;
+		
+		&--small{
+			background-color: $table-time;
+			text-transform: lowercase;
+		}
 	}
 }
+
