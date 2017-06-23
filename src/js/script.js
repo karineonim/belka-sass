@@ -1,95 +1,55 @@
 $(document).ready(function(){
-// Это обертка, предотвращающая срабатывание внутреннего кода до события загрузки страницы
-// А при вызове функции initMap событие загрузки страницы еще не настало.
-// Пишите такие фрагменты карты прямо в разметке!
 
-// // Определение точных координат: http://www.mapcoordinates.net/ru
-// // Примеры кода: https://developers.google.com/maps/documentation/javascript/examples/?hl=ru
+function accordion() {
+	
+	function openItem() {
+		if ($(this).hasClass('active')) {
+			$(this).removeClass('active');
+				} else{
+		$('.price-mobile__text').removeClass('active');
+		$(this).addClass('active');
+	}
+	}
+	
+	$('.price-mobile__text').on('click', openItem);
+	}
+	
+	accordion();
 
-// // Одна или несколько точек на карте
-// var mapPoints = [
-//   [
-//     'Точка на карте',
-//     59.956132,
-// 30.318733,
-//     '<div class="some-class"><h2>Заголовок</h2><p>Лорем ипсум долор хрень какая-то, но видно, что это самая обычная разметка</p></div>'
-//   ],
 
-// // Стилизация карты
-// // Подробнее о стилях: https://developers.google.com/maps/documentation/javascript/styling?hl=ru
-// var mapStyle = [{
-//   featureType: 'all',
-//   stylers: [{ saturation: -100 }]
-// }];
+	// $( ".cross" ).hide();
+$( ".toggle-nav__list" ).hide();
+$( ".main-nav__toggle" ).click(function() {
+$( ".toggle-nav__list" ).slideToggle( "slow", function() {
+// $( ".hamburger" ).hide();
+// $( ".cross" ).show();
+});
+});
 
-// // Будущее инфоокно, возникающее по клику на маркере карты
-// var mapInfoWindow = null;
+$( ".cross" ).click(function() {
+$( ".toggle-nav__list" ).slideToggle( "slow", function() {
+$( ".cross" ).hide();
+$( ".main-nav__toggle" ).show();
+});
+});
 
-// // Инициализация карты (вызывается после загрузки скрипта)
-// function initMap() {
-//   // Найдем тег карты по id
-//   var mapDiv = document.getElementById('map');
-//   // Определим центр карты
-//   var center = {lat: 59.95016094, lng: 30.31612718};
-//   // Создадим объект карты
-//   var map = new google.maps.Map(mapDiv, {
-//     zoom: 13,
-//     center: center,
-//     disableDefaultUI: true,
-//     styles: mapStyle
-//   });
-//   //  Вызовем функцию, которая расставит маркеры
-//   setMapMarkers(map);
-//   // Создадим объект инфоокна
-//   mapInfoWindow = new google.maps.InfoWindow({
-//     content: "loading...",
-//     maxWidth: 200
-//   });
-//   // Начнем следить за ресайзом карты
-//   map.addListener('resize', function() {
-//     map.panTo(center); // Отцентруем
-//   });
-//   // Начнем следить за ресайзом окна (важно, если ресайз окна влияет на размер блока карты)
-//   google.maps.event.addDomListener(window, 'resize', function(){
-//     google.maps.event.trigger(map, 'resize'); // Вызовем событие ресайза карты
-//   });
-//   // Начнем следить за изменением центра, через 3 с. вернем центр по умолчанию
-//   // map.addListener('center_changed', function() {
-//   //   window.setTimeout(function() {
-//   //     map.panTo(center);
-//   //   }, 3000);
-//   // });
-// }
+$("a.scrollto").click(function () {
+var elementClick = $(this).attr("href")
+var destination = $(elementClick).offset().top;
+jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
+return false;
+});
 
-// // Функция проставляет маркеры карты
-// function setMapMarkers(map) {
-//   // Данные о картинке-маркере (в этом примере для всех маркеров одна картинка)
-//   var image = {
-//     url: 'http://s1.iconbird.com/ico/2013/8/425/w128h12813771935056.png',
-//     // Эта картинка 128×128 пикселей.
-//     // Точка «упора» нарисованного маркера по горизонтали — середина
-//     // Точка «упора» нарисованного маркера по вертикали в 11 пикселях от нижнего края картинки
-//     size: new google.maps.Size(128, 128),
-//     anchor: new google.maps.Point(64, 117) // 128 / 2 (горизонталь) и 128 - 11 (вертикаль)
-//   };
-//   // Обходим массив маркеров и проставляем каждый
-//   for (var i = 0; i < mapPoints.length; i++) {
-//     // Переменная с данными этой точки
-//     var point = mapPoints[i];
-//     // Создаем маркер карты
-//     var marker = new google.maps.Marker({
-//       position: {lat: point[1], lng: point[2]},
-//       map: map,
-//       //icon: image,
-//       title: point[0],
-//       html: point[3],
-//     });
-//     // Начинаем следить за кликом на маркере
-//     google.maps.event.addListener(marker, 'click', function () {
-//       mapInfoWindow.setContent(this.html);
-//       mapInfoWindow.open(map, this);
-//     });
-//   }
-// }
+$(document).ready(function(){
+$('a[href*=#]').bind("click", function(e){
+var anchor = $(this);
+$('html, body').stop().animate({
+scrollTop: $(anchor.attr('href')).offset().top
+}, 1000);
+e.preventDefault();
+});
+return false;
+});
+
 
 });

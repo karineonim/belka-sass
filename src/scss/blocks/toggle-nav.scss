@@ -1,0 +1,56 @@
+.toggle-nav{
+
+
+@media(max-width: '$screen-sm'){
+
+		z-index:5; 
+		width:100%; 
+		background:$header-grey;  
+		position:absolute; 
+		top: 30px;
+		text-align:center; 
+		}
+ul {
+	margin: 0; 
+	padding-top: 40px;
+	padding-bottom: 40px; 
+}
+li {
+	display: block;   
+	padding:0 0 20px 0; 
+}
+li:hover{
+	display: block;    
+}
+ul li a {   
+	margin: 0px; 
+	color:$trace-dark;
+	font-family: $family-ProximaR;
+}
+ul li a:hover {  
+	color: $trace-color; 
+	font-family: $family-ProximaR;
+}
+a{
+ color:$trace-dark;
+ font-family: $family-ProximaR;
+}
+a:hover{
+	color:$trace-color;
+	font-family: $family-ProximaR;
+}
+
+
+		@media(min-width: '$screen-sm'){
+			display: none;
+		}	
+
+&__social{
+	position: relative;
+	display: block;
+}
+
+
+	
+
+}

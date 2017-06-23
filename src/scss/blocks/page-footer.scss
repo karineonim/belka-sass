@@ -45,6 +45,11 @@
 			min-width: 290px;
 			margin-top: 40px;
 		}
+
+		@media(min-width: '$screen-lg'){
+			min-width: 490px;
+			margin-top: 40px;
+		}
 	}
 
 	&__location{

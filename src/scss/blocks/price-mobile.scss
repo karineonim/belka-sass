@@ -18,6 +18,34 @@
 		padding-top: 20px;
 		border-top: 2px solid;
 		font-size: $font-size + 2px;
+		// position: relative;
+		z-index: 2;
+	}
+
+	&__inner{
+		background-color: $footer;
+		display: none;
+		margin-top: 20px;
+		margin-bottom: -20px;
+	}
+
+	&__inner-text{
+		color: $white;
+		display: block;
+		padding-top: 15px;
+		padding-bottom: 15px;			
+		text-transform: uppercase;
+		white-space: pre-line;
+	}
+
+	.active > &__inner {
+	background-color: $footer;	
+  	display: block;
+  	// position: absolute;
+  	top: 60px;
+  	min-height: 130px;
+  	width: 100%;
+  	z-index: 1;
 	}
 	
 	&__total{

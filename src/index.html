@@ -26,13 +26,32 @@
   <div class="page-header__contacts">
     <div class="page-header__container container">
       <div class="page-header__contacts-wrap">
-        <div class="contacts">
+        <div class="contacts" id='up'>
           <div class="contacts-time"></div><div class="contacts__time">24 часа</div>
-          <div class="contacts-phone"></div><div class="contacts__phone">8(812)999-77-88</div>
+          <div class="contacts-phone"></div><div class="contacts__phone">8 (812) 999-77-88</div>
           <div class="contacts-location"></div><div class="contacts__location">Выборгское ш.,220</div>
         </div>
       </div>
-      <button class="page-header__nav-toggle main-nav__toggle"></button>
+    <button class="page-header__nav-toggle main-nav__toggle"></button>
+    <nav class="toggle-nav">
+    <ul class="toggle-nav__list">
+       <li class="toggle-nav__item toggle-nav__item--active"><a href="#trace" class="toggle-nav__link">Трассы</a></li>
+       <li class="toggle-nav__item"><a href="#share" class="toggle-nav__link">Акции</a></li>
+       <li class="toggle-nav__item"><a href="#price" class="toggle-nav__link">Цены</a></li>
+       <li class="toggle-nav__item"><a href="#comment" class="toggle-nav__link">Отзывы</a></li>
+       <li class="toggle-nav__item"><a href="#contacts" class="toggle-nav__link">Контакты</a></li>
+       <li class="toggle-nav__item"><a href="#" class="toggle-nav__link">
+        <div class="toggle-nav__social">
+        <div class="comment-instagram"></div>
+        <div class="comment-vk"></div>
+        <div class="comment-instagram"></div>
+        </div>
+       </a></li> 
+     </ul>
+      </nav>
+</header>
+
+
     </div>
   </div>
   <div class="page-header__container container">
@@ -44,15 +63,15 @@
       <span class="page-header__logo page-header__logo--fifth">a</span>
     </a> </div>
 
-    <button class="page-header__order-btn btn">Купить билет</button>
+    <button class="page-header__order-btn btn btn--grey">Купить билет</button>
 
     <nav class="page-header__nav main-nav">
       <ul class="main-nav__list">
-       <li class="main-nav__item"><a href="#" class="main-nav__link">Контакты</a></li>
-       <li class="main-nav__item"><a href="#" class="main-nav__link">Отзывы</a></li>
-       <li class="main-nav__item"><a href="#" class="main-nav__link">Цены</a></li>
-       <li class="main-nav__item"><a href="#" class="main-nav__link">Акции</a></li>
-       <li class="main-nav__item main-nav__item--active"><a href="#" class="main-nav__link">Трассы</a></li> 
+       <li class="main-nav__item"><a href="#contacts" class="main-nav__link">Контакты</a></li>
+       <li class="main-nav__item"><a href="#comment" class="main-nav__link">Отзывы</a></li>
+       <li class="main-nav__item"><a href="#price" class="main-nav__link">Цены</a></li>
+       <li class="main-nav__item"><a href="#share" class="main-nav__link">Акции</a></li>
+       <li class="main-nav__item main-nav__item--active"><a href="#trace" class="main-nav__link">Трассы</a></li> 
      </ul>
    </nav>
  </div>
@@ -69,12 +88,12 @@
 Bключает в себя 2 детские трассы и 3 взрослые.
 Cкалолазы смогут найти подробную схему 
 всех подготовленных трасс, посмотреть категорию сложности.</span></p>
-      <button class="rocks__order-btn btn">Купить билет</button>
+      <button class="rocks__order-btn btn btn--down">Купить билет</button>
     </div>
   </section>
 <!-- БЛОК ТРАССЫ
 -->  <section class="routes">
-<h2 class="routes__title title title--white">Тр<span title--dec>асс</span>ы</h2>
+<h2 class="routes__title title title--white"  id='trace'>Тр<span title--dec>асс</span>ы</h2>
 
 <article class="routes__item trace">
   <header class="trace__header">
@@ -156,7 +175,7 @@ Cкалолазы смогут найти подробную схему
   <div class="share__container container">
 
     <div class="share-offers">
-      <h2 class="share-offers__title title">А<span title--dec>кци</span>и</h2>
+      <h2 class="share-offers__title title" id='share'>А<span title--dec>кци</span>и</h2>
     </div>
 
     <div class="share__wrap">
@@ -237,7 +256,7 @@ Cкалолазы смогут найти подробную схему
 <!-- ЦЕНЫ
 -->
 <section class="price">
-  <div class="price__container container">
+  <div class="price__container container" id='price'>
     <h2 class="price__title title">Ц<span title--dec>ен</span>ы</h2>
   </div>
   <div class="price__background">
@@ -304,9 +323,32 @@ Cкалолазы смогут найти подробную схему
 
 
         <div class="price-mobile">
-          <p class="price-mobile__text">Выберите возраст</p>
-          <p class="price-mobile__text">Выберите место</p>
-          <p class="price-mobile__text">Выберите длительность</p>
+          <div class="price-mobile__text">Выберите возраст
+            <div class="price-mobile__inner">
+              <span class='price-mobile__inner-text'>Детский
+              от 4 лет</span>
+              <span class='price-mobile__inner-text'>Взрослый
+              от 7 лет</span>
+            </div>
+
+          </div>
+          <div class="price-mobile__text">Выберите место
+            <div class="price-mobile__inner">
+              <span class='price-mobile__inner-text'>все трассы
+              веревочный парк + скалодрос</span>
+              <span class='price-mobile__inner-text'>веревочный парк</span>
+              <span class='price-mobile__inner-text'>скалодром</span></div>
+          </div>
+
+          <div class="price-mobile__text">Выберите длительность
+            <div class="price-mobile__inner">
+              <span class='price-mobile__inner-text'>прохождение парка
+              за 3 часа</span>
+              <span class='price-mobile__inner-text'>прохождение парка
+              за 12 часов</span>
+            </div>
+          </div>
+
           <p class="price-mobile__total">Стоимость абонемента <span class="price-mobile__rub">0 ₽</span></p>
 
           <div class="price__container container">
@@ -329,7 +371,7 @@ Cкалолазы смогут найти подробную схему
 <div class="comment">
  <div class="comment__background"></div>
  <div class="comment__container container">
-  <h2 class="comment__title title">О<span title--dec>тзыв</span>ы</h2>
+  <h2 class="comment__title title" id='comment'>О<span title--dec>тзыв</span>ы</h2>
   <div class="comment__wrap">
             <div class="comment-people">
               <img src="img/comment-aleksey.png" alt="" class="comment-people__img">
@@ -371,7 +413,7 @@ Cкалолазы смогут найти подробную схему
     </section>
 <!-- ПОДВАЛ
 -->
-<footer class="page-footer">
+<footer class="page-footer" id='contacts'>
   <div class="page-footer__container container">
     <div class="page-footer__wrap">
 
@@ -382,11 +424,11 @@ Cкалолазы смогут найти подробную схему
 
       <nav class="page-footer__nav footer-nav">
         <ul class="footer-nav__list">
-          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Трассы</a></li>
-          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Акции</a></li>
-          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Цены</a></li>
-          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Отзывы</a></li>
-          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Контакты</a></li>
+          <li class="footer-nav__item"><a href="#trace" class="footer-nav__link">Трассы</a></li>
+          <li class="footer-nav__item"><a href="#share" class="footer-nav__link">Акции</a></li>
+          <li class="footer-nav__item"><a href="#price" class="footer-nav__link">Цены</a></li>
+          <li class="footer-nav__item"><a href="#comment" class="footer-nav__link">Отзывы</a></li>
+          <li class="footer-nav__item"><a href="#contacts" class="footer-nav__link">Контакты</a></li>
         </ul>
       </nav>
 
@@ -499,7 +541,7 @@ Cкалолазы смогут найти подробную схему
 <!-- КНОПКА ДЛЯ ПРОКРУТКИ САЙТА
 -->
 <div class="up">
-  <a href="#" class="up__btn btn btn--circle"> <div class="arrow"></div></a>
+  <a href="#up" class="up__btn btn btn--circle"> <div class="arrow"></div></a>
 </div>
 <!-- СКРИПТЫ НА JS
 -->

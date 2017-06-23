@@ -3,11 +3,13 @@
 
 	@media(min-width: '$screen-sm'){
 		display: inline-block;
-		min-height: 600px;
+		height: 600px;
 		width: 210px;
 		background-image: linear-gradient(to top, $trace-color 50%, $trace-grad 51%);
 		margin-bottom: 70px;
 		margin-left: 15px;
+		margin-top: 40px;
+		padding-bottom: 40px;
 
 			&--dark{
 				background-image: linear-gradient(to top, $trace-dark 50%, $trace-dark 51%);
@@ -15,6 +17,10 @@
 				.trace__text{
 					margin-top: 25px;
 				}
+			@media(min-width: '$screen-lg'){
+				margin-top: 110px;
+			}
+
 			}
 
 	&__title{
