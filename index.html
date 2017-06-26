@@ -104,14 +104,16 @@ Cкалолазы смогут найти подробную схему
 <!-- БЛОК ТРАССЫ
 -->  <section class="routes">
 <h2 class="routes__title title title--white"  id='trace'>Тр<span title--dec>асс</span>ы</h2>
-
+<div class="routes__slider" id="routes-carousel">
 <article class="routes__item trace">
   <header class="trace__header">
     <h3 class="trace__title">Трасса #1</h3>
     <span class="trace__height">Высота 15 м.</span>
     <span class="trace__age">Возраст 13+</span>
   </header>
+  <div class="trace__color"></div>
   <img src="img/trace-img-1.jpg" alt="" class="img/trace__img">
+
   <p class="trace__text">Трасса для опытных 
 скалолазов.Требуется 
 наличие хорошей физ. 
@@ -146,14 +148,16 @@ Cкалолазы смогут найти подробную схему
 физ. подготовка.</p>
       </article>
 
-   <!--  <article class="routes__item trace trace--dark">
+    <article class="routes__item trace trace--dark">
       <header class="trace__header">
         <h3 class="trace__title">Трасса #4</h3>
         <span class="trace__height">Высота 3 м.</span>
         <span class="trace__age">Возраст 4+</span>
       </header>
-      <img src="#" alt="" class="trace__img">
-      <p class="trace__text">Самая невысокая трасса. Специальные  зацепы для детей.</p>
+      <img src="img/trace-img-4.jpg" alt="" class="trace__img">
+      <p class="trace__text">Самая невысокая 
+      трасса. Специальные  
+      зацепы для детей.</p>
     </article>
 
     <article class="routes__item trace">
@@ -162,12 +166,15 @@ Cкалолазы смогут найти подробную схему
         <span class="trace__height">Высота 8 м.</span>
         <span class="trace__age">Возраст 13+</span>
       </header>
-      <img src="#" alt="" class="trace__img">
-      <p class="trace__text">Средняя высота и сложность.Физ. подготовка не обязательна.</p>
-    </article> -->
+      <img src="img/trace-img-5.jpg" alt="" class="trace__img">
+      <p class="trace__text">Средняя высота 
+      и сложность.Физ. 
+      подготовка не обязательна.</p>
+    </article>
+</div>
 
-
-    <article class="routes__item trace-ride">
+    <!-- <article class="routes__item trace-ride">
+      <div  id="trace-carousel">
       <div class="trace-ride__img">
         <img src="img/trace-img-1.jpg" alt="">
         <div class="trace-ride__wrap">
@@ -175,7 +182,36 @@ Cкалолазы смогут найти подробную схему
           <span class="trace-ride__height">Высота 15 м.</span>
           <span class="trace-ride__age">Возраст 13+</span>
           <p class="trace-ride__text">Трасса для опытных скалолазов.Требуется наличие хорошей физ. подготовки.</p>
-        </div> </div>
+        </div> 
+      </div>
+      <div class="trace-ride__img">
+        <img src="img/trace-img-1.jpg" alt="">
+        <div class="trace-ride__wrap">
+          <h3 class="trace-ride__title">Трасса #1</h3>
+          <span class="trace-ride__height">Высота 15 м.</span>
+          <span class="trace-ride__age">Возраст 13+</span>
+          <p class="trace-ride__text">Трасса для опытных скалолазов.Требуется наличие хорошей физ. подготовки.</p>
+        </div> 
+      </div>
+      <div class="trace-ride__img">
+        <img src="img/trace-img-1.jpg" alt="">
+        <div class="trace-ride__wrap">
+          <h3 class="trace-ride__title">Трасса #1</h3>
+          <span class="trace-ride__height">Высота 15 м.</span>
+          <span class="trace-ride__age">Возраст 13+</span>
+          <p class="trace-ride__text">Трасса для опытных скалолазов.Требуется наличие хорошей физ. подготовки.</p>
+        </div> 
+      </div>
+      </div> -->
+        <!--  <div class="trace-ride__img">
+        <img src="img/trace-img-2.jpg" alt="">
+        <div class="trace-ride__wrap">
+          <h3 class="trace-ride__title">Трасса #2</h3>
+          <span class="trace-ride__height">Высота 15 м.</span>
+          <span class="trace-ride__age">Возраст 13+</span>
+          <p class="trace-ride__text">Трасса для опытных скалолазов.Требуется наличие хорошей физ. подготовки.</p>
+        </div> </div> -->
+
       </article>
 
     </section>
@@ -243,25 +279,37 @@ Cкалолазы смогут найти подробную схему
 <!-- БЛОК АЛЬБОМ
 -->
 <section class="album">
+
   <div class="album__container container">
     <div class="album__wrap">
+
+    <div id="album-carousel">
+    <a class="test-popup-link" href="img/album-img-1.jpg">
       <picture>
-       <source srcset="img/album-img-1.jpg" media="(min-width: 1200px)" class='album__picture'>
-        <source srcset="img/album-img-1.jpg" media="(min-width: 768px)" class='album__picture'>
+       <source srcset="img/album-img-1.jpg" media="(min-width: 1200px)" class='album__picture' id="bigger">
+        <source srcset="img/album-img-1.jpg" media="(min-width: 768px)" class='album__picture' id="bigger">
           <img src="img/album-img-1.jpg" alt="SM" class='album__picture'>
         </picture>
+        </a>
+        <a class="test-popup-link" href="img/album-img-2.jpg">
         <picture>
          <source srcset="img/album-img-2.jpg" media="(min-width: 1200px)" class='album__picture'>
           <source srcset="img/album-img-2.jpg" media="(min-width: 768px)" class='album__picture'>
             <img src="img/album-img-2.jpg" alt="SM">
           </picture>
+          </a>
+          <a class="test-popup-link" href="img/album-img-3.jpg">
           <picture>
            <source srcset="img/album-img-3.jpg" media="(min-width: 1200px)" class='album__picture'>
             <source srcset="img/album-img-3.jpg" media="(min-width: 768px)" class='album__picture'>
               <img src="img/album-img-3.jpg" alt="SM" class='album__picture'>
             </picture>
+              </a>
+            </div>
+            
           </div>
         </div>
+        
       </section>
 <!-- ЦЕНЫ
 -->
@@ -383,11 +431,14 @@ Cкалолазы смогут найти подробную схему
  <div class="comment__container container">
   <h2 class="comment__title title" id='comment'>О<span title--dec>тзыв</span>ы</h2>
   <div class="comment__wrap">
+
+  <div id="comment-carousel">
+
             <div class="comment-people">
               <img src="img/comment-aleksey.png" alt="" class="comment-people__img">
               <p class="comment-people__name">Алексей</p>
               <p class="comment-people__personal">Скалолаз-любитель</p>
-              <div class="comment__social">
+              <div class="comment-people__social">
                 <div class="comment-instagram"></div>
                 <div class="comment-vk"></div>
               </div>
@@ -398,7 +449,7 @@ Cкалолазы смогут найти подробную схему
               <img src="img/comment-maria.png" alt="" class="comment-people__img">
               <p class="comment-people__name">Мария</p>
               <p class="comment-people__personal">Студентка</p>
-              <div class="comment__social">
+              <div class="comment-people__social">
                 <div class="comment-instagram"></div>
                 <div class="comment-vk"></div>
               </div>
@@ -409,14 +460,18 @@ Cкалолазы смогут найти подробную схему
               <img src="img/comment-ekaterina.png" alt="" class="comment-people__img">
               <p class="comment-people__name">Екатерина</p>
               <p class="comment-people__personal">Мама троих детей</p>
-              <div class="comment__social">
+              <div class="comment-people__social">
                 <div class="comment-instagram"></div>
                 <div class="comment-vk"></div>
               </div>
               <p class="comment-people__text">Парк «BELKA» - отличная альтернатива наскучившим походам в кино и кафе.</p>
             </div>
+
+
+
             </div>
 
+          </div>
           </div>
         </div>
       </div>
@@ -557,6 +612,7 @@ Cкалолазы смогут найти подробную схему
 -->
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3zr5vD2FlY3eOGh5t6u8RCaYXry5SJGE&signed_in=true&callback=initMap"></script>
 <script src="js/script.min.js"></script>
+
 
 </body>
 </html>
