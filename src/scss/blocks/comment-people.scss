@@ -1,20 +1,21 @@
 .comment-people{
-	position: absolute;
-	top: 145px;
+	// position: absolute;
+	padding-top: 145px;
 	left: 10%;
 	width: 80%;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	z-index: 3;
-	align-items: center;
+	margin: 0 auto;
+	// display: -webkit-flex;
+	// display: -moz-flex;
+	// display: -ms-flex;
+	// display: -o-flex;
+	// display: flex;
+	// flex-direction: column;
+	// justify-content: center;
+	// z-index: 3;
+	// align-items: center;
 
 	@media(min-width: '$screen-sm'){
-		position: relative;
+		// position: relative;
 		display: inline-block;
 		width: 30%;
 		vertical-align: top;
@@ -26,22 +27,31 @@
 
 	&__img{
 		width: 155px;
+		margin: auto;
 	}
 
 	&__name{
 		font-size: 16px;
 		padding-top: 8px;
+		text-align: center;
 	}
 	
 	&__personal{
 		font-size: 16px;
 		padding-top: 2px;
 		padding-bottom: 10px;
+		text-align: center;
+	}
+
+	&__social{
+		text-align: center;
 	}
 
 	&__text{
 		padding-top: 15px;
-		width: 165px;
+		margin: 0 auto;
+		width: 30%;
+		text-align: center;
 
 		@media(min-width: '$screen-sm'){
 		width: 100%;

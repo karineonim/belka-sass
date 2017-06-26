@@ -1,15 +1,154 @@
 .trace{
-	display: none;
+	margin: 0 auto;	
+	margin-top: 100px;
+	text-align: center;
+	// background-image: linear-gradient(to top, $trace-grad 50%, $trace-grad 51%);
+	position: relative;
 
-	@media(min-width: '$screen-sm'){
+	img{
+		// max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border: none;
+        z-index: 10;
+	}
+
+	&__color{
+	@media(max-width: $screen-sm){
+		background-color: rgba(0,0,0,0.7);
+		width: 216px;
+		height: 318px;
+		z-index: 1;
+		position: absolute;
+		left: calc(50% - 108px);
+		z-index: 1;
+	}	
+	}
+
+	// img:before{
+	// 	position: absolute;
+	// 	content: '';
+	// 	// left: 0;
+	// 	// right: 0;
+	// 	// top: 0;
+	// 	// bottom: 0;
+	// 	background-color: $trace-grad;
+	// 	width: 100px;
+	// 	height: 100px;
+
+	// }
+
+	&__title{
+		// margin-top: -20px;
+		position: absolute;
+		text-align: center;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 20px;
+		color: $traces-title;
+		text-align: center;
+		font-family: $family-ProximaB;
+		font-size: $font-size + 14px;
+		z-index: 5;
+		@media(min-width: $screen-sm){
+		position: static;	
+		padding-top: 15px;
+		padding-bottom: 12px;
+		
+	}
+	}
+
+	&__height{
+		position: absolute;
+		text-align: center;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 60px;
+		display: block;
+		color: $traces-title;
+		text-align: center;
+		font-size: $font-size + 2px;
+		z-index: 5;
+		@media(min-width: $screen-sm){
+		position: static;	
+		
+	}
+	}
+
+		&__age{
+		position: absolute;
+		text-align: center;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 90px;	
+		display: block;
+		color: $traces-title;
+		font-size: $font-size + 2px;
+		z-index: 5;
+		@media(min-width: $screen-sm){
+		position: static;	
+		padding-bottom: 20px;
+		text-align: center;
+	}
+	}
+
+		&__text{
+		position: absolute;
+		text-align: center;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 150px;		
+		display: block;
+		color: $traces-text;
+		text-align: center;
+		font-size: $font-size + 2px;
+		white-space: pre-line;
+		z-index: 5;
+		@media(min-width: $screen-sm){
+		position: static;	
+		padding-top: 20px;
+		padding-bottom: 15px;
+		vertical-align: middle;
+	}
+	}
+
+	// &__title{
+	// 	position: absolute;
+	// 	top: -15px;
+	// 	left: 30%;
+	// 	color: $traces-title;
+	// 	text-align: center;
+	// 	font-family: $family-ProximaB;
+	// 	font-size: $font-size + 14px;
+	// 	padding-top: 15px;
+	// 	padding-bottom: 12px;
+	// }
+
+	@media(min-width: $screen-sm){
 		display: inline-block;
 		height: 600px;
-		width: 210px;
+		max-width: 210px;
 		background-image: linear-gradient(to top, $trace-color 50%, $trace-grad 51%);
 		margin-bottom: 70px;
-		margin-left: 15px;
+		margin-left: 5px;
+		margin-right: 4px;
 		margin-top: 40px;
 		padding-bottom: 40px;
+
+		@media(min-width: $screen-lg){
+			margin-left: 10px;
+			margin-right: 11px;
+			box-sizing: border-box;
+		}
 
 			&--dark{
 				background-image: linear-gradient(to top, $trace-dark 50%, $trace-dark 51%);
@@ -21,41 +160,8 @@
 				margin-top: 110px;
 			}
 
-			}
-
-	&__title{
-		color: $traces-title;
-		text-align: center;
-		font-family: $family-ProximaB;
-		font-size: $font-size + 14px;
-		padding-top: 15px;
-		padding-bottom: 12px;
 	}
 
-	&__height{
-		display: block;
-		color: $traces-title;
-		text-align: center;
-		font-size: $font-size + 2px;
-	}
-
-	&__age{
-		display: block;
-		color: $traces-title;
-		text-align: center;
-		font-size: $font-size + 2px;
-		padding-bottom: 20px;
-	}
-
-	&__text{
-		display: block;
-		color: $traces-text;
-		text-align: center;
-		font-size: $font-size + 2px;
-		white-space: pre;
-		padding-top: 20px;
-		padding-bottom: 15px;
-		vertical-align: middle;
-	}
+	
 	}
 }
