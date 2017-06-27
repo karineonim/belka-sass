@@ -27,4 +27,64 @@
 		margin-top: 40px;
 		margin-bottom: 40px;
 	}
+
+	&__wrap{
+		position: relative;
+	}
+	
+	@media(min-width: '$screen-lg'){	
+	&__dark{
+		
+	position: absolute;
+	content: '';
+	width: 360px;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	left: 15px;
+	display: none;
+   }
+
+	&__loupe{
+		position: absolute;
+		border: 2px solid $white;;
+		border-radius:50px;
+		width: 70px;
+		height: 70px;
+ 		bottom: 20px;
+ 		// right: 15px;
+ 		left: 140px;
+ 		bottom: 240px;
+	}
+
+	&__loupe:before{
+		position: absolute;
+		content: '';
+		border-left: 2px solid $white;
+		width: 2px;
+		height: 32px;
+		left: 34px;
+		bottom: 20px;
+	}
+
+	&__loupe:after{
+		position: absolute;
+		content: '';
+		border-bottom: 2px solid $white;
+		width: 32px;
+		height: 2px;
+		left: 19px;
+		bottom: 35px;
+	}
+
+	&__line{
+		position: absolute;
+		content: '';
+		border-bottom: 2px solid $white;
+		width: 35px;
+		height: 2px;
+		left: 56px;
+		bottom: -5px;
+		transform: rotate(45deg);
+	}
+	}
 }

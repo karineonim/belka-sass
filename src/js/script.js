@@ -1,19 +1,6 @@
 $(document).ready(function(){
 
-  $('.test-popup-link').magnificPopup({
-    type: 'image',
-    closeOnContentClick: true,
-    closeBtnInside: false,
-    fixedContentPos: true,
-    mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
-    image: {
-      verticalFit: true
-    },
-    zoom: {
-      enabled: true,
-      duration: 300 // don't foget to change the duration also in CSS
-    }
-});
+ // Карусель для альбома 
 
 
 $('#album-carousel').slick({
@@ -34,6 +21,8 @@ $('#album-carousel').slick({
     ]
   });
 
+// Карусель для комментариев
+
   $('#comment-carousel').slick({
 	 arrows: true,
     infinite: true,
@@ -51,6 +40,8 @@ $('#album-carousel').slick({
     }
     ]
   });	
+
+ // Карусель для трасс 
 
 $('#routes-carousel').slick({
   arrows: false,	
@@ -79,6 +70,8 @@ $('#routes-carousel').slick({
     ]
   });	
 
+// Аккордеон цен на мобильный
+
 function accordion() {
 	
 	function openItem() {
@@ -95,18 +88,69 @@ function accordion() {
 	
 	accordion();
 
+ // Галочка для цен на планшет и выше 
+
 
 $('.price__table-rub').click(function() {
     $(this).toggleClass('active-rub');
 });
 
+// Наведение на картинки акции (темный фон+текст)
 
-	// $( ".cross" ).hide();
+$('.share__img').mouseenter(function()
+{
+  $(this).children().show();
+});
+
+// Наведение на картинки акции (убрать первичный текст)
+
+$('.share__img').mouseenter(function()
+{
+  $(this).children('.share__text').hide();
+});
+
+// Убираем мышку с картинок акций
+
+$('.share__img').mouseleave(function()
+{
+  $('.share__dark').hide(),
+  $('.share__text').show();
+  ;
+});
+
+$('.album__wrap').mouseenter(function()
+{
+  $(this).children().show();
+});
+
+$('.album__wrap').mouseleave(function()
+{
+ $(this).children('.album__dark').hide();
+});
+
+  // Увеличение картинок
+
+  $('.test-popup-link').magnificPopup({
+    type: 'image',
+    closeOnContentClick: true,
+    closeBtnInside: false,
+    fixedContentPos: true,
+    mainClass: 'mfp-no-margins mfp-with-zoom',
+    image: {
+      verticalFit: true
+    },
+    zoom: {
+      enabled: true,
+      duration: 500 
+    }
+});
+
+
+// Гамбургер для мобильной версии
+
 $( ".toggle-nav__list" ).hide();
 $( ".main-nav__toggle" ).click(function() {
 $( ".toggle-nav__list" ).slideToggle( "slow", function() {
-// $( ".hamburger" ).hide();
-// $( ".cross" ).show();
 });
 });
 
@@ -117,12 +161,16 @@ $( ".main-nav__toggle" ).show();
 });
 });
 
+// Плавная прокрутка главного и футер меню
+
 $("a.scrollto").click(function () {
 var elementClick = $(this).attr("href")
 var destination = $(elementClick).offset().top;
 jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
 return false;
 });
+
+// Плавная прокрутка кнопки-преследователя
 
 $(document).ready(function(){
 $('a[href*=#]').bind("click", function(e){

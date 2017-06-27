@@ -220,6 +220,7 @@ Cкалолазы смогут найти подробную схему
 
     <div class="share__wrap">
       <div class="share__img">
+      <div class="share__dark"><p class="share__dark-text">Подробнее</p></div>
         <picture>
           <source srcset="img/share-lg-1.jpg" media="(min-width: 1200px)">
             <img src="img/share-md-1.jpg" alt="SM">
@@ -228,6 +229,7 @@ Cкалолазы смогут найти подробную схему
             скидка 10%</span>
           </div>
           <div class="share__img">
+          <div class="share__dark"><p class="share__dark-text">Подробнее</p></div>
            <picture>
             <source srcset="img/share-lg-2.jpg" media="(min-width: 1200px)">
               <img src="img/share-md-2.jpg" alt="SM">
@@ -236,6 +238,7 @@ Cкалолазы смогут найти подробную схему
               скидка 20%</span>
             </div>
             <div class="share__img">
+            <div class="share__dark"><p class="share__dark-text">Подробнее</p></div>
               <picture>
                 <source srcset="img/share-lg-3.jpg" media="(min-width: 1200px)">
                   <img src="img/share-md-3.jpg" alt="SM">
@@ -275,24 +278,45 @@ Cкалолазы смогут найти подробную схему
 <section class="album">
 
   <div class="album__container container">
-    <div class="album__wrap">
+    <!-- <div class="album__about"> -->
 
     <div id="album-carousel">
-    <a class="test-popup-link" href="img/album-img-1.jpg">
+    <div class="album__wrap">
+
+    <div class="album__dark test-popup-link" href="img/album-img-1.jpg">
+      <div class="album__loupe"><div class="album__line"></div></div>
+      <a class="test-popup-link" href="img/album-img-1.jpg">
+    </div>
+
+    
       <picture>
        <source srcset="img/album-img-1.jpg" media="(min-width: 1200px)" class='album__picture' id="bigger">
         <source srcset="img/album-img-1.jpg" media="(min-width: 768px)" class='album__picture' id="bigger">
           <img src="img/album-img-1.jpg" alt="SM" class='album__picture'>
         </picture>
         </a>
-        <a class="test-popup-link" href="img/album-img-2.jpg">
+        </div>
+
+        <div class="album__wrap">
+        <div class="album__dark test-popup-link" href="img/album-img-2.jpg">
+      <div class="album__loupe"><div class="album__line"></div></div>
+      <a class="test-popup-link" href="img/album-img-2.jpg">
+    </div>
+
         <picture>
          <source srcset="img/album-img-2.jpg" media="(min-width: 1200px)" class='album__picture'>
           <source srcset="img/album-img-2.jpg" media="(min-width: 768px)" class='album__picture'>
             <img src="img/album-img-2.jpg" alt="SM">
           </picture>
           </a>
-          <a class="test-popup-link" href="img/album-img-3.jpg">
+          </div>
+
+          <div class="album__wrap">
+          <div class="album__dark test-popup-link" href="img/album-img-3.jpg">
+      <div class="album__loupe"><div class="album__line"></div></div>
+      <a class="test-popup-link" href="img/album-img-3.jpg">
+    </div>
+
           <picture>
            <source srcset="img/album-img-3.jpg" media="(min-width: 1200px)" class='album__picture'>
             <source srcset="img/album-img-3.jpg" media="(min-width: 768px)" class='album__picture'>
@@ -300,8 +324,8 @@ Cкалолазы смогут найти подробную схему
             </picture>
               </a>
             </div>
-            
-          </div>
+            </div>
+          <!-- </div> -->
         </div>
         
       </section>
@@ -600,7 +624,9 @@ Cкалолазы смогут найти подробную схему
 <!-- КНОПКА ДЛЯ ПРОКРУТКИ САЙТА
 -->
 <div class="up">
+<div class="up__container container">
   <a href="#up" class="up__btn btn btn--circle"> <div class="arrow"></div></a>
+  </div>
 </div>
 <!-- СКРИПТЫ НА JS
 -->
