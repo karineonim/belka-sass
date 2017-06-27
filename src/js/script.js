@@ -96,6 +96,11 @@ function accordion() {
 	accordion();
 
 
+$('.price__table-rub').click(function() {
+    $(this).toggleClass('active-rub');
+});
+
+
 	// $( ".cross" ).hide();
 $( ".toggle-nav__list" ).hide();
 $( ".main-nav__toggle" ).click(function() {

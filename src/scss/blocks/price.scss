@@ -123,11 +123,44 @@
 
 	&__table-rub{
 		text-align: center;
+		height: 65px;
 		
 		&--small{
 			background-color: $table-time;
 			text-transform: lowercase;
 		}
+
+		&:hover{
+			border: 2px solid;
+		}
 	}
 }
 
+	.active-rub{
+		position: relative;
+		border: 2px solid red;
+	}
+
+	.active-rub:before{
+		position: absolute;
+  		content: '';
+  		border-left: 2px solid red;
+  		height: 12px;
+  		width: 2px;
+  		transform: rotate(135deg);
+  		display: inline-block;
+  		right: 65px;
+  		bottom: 20px;
+	}
+
+	.active-rub:after{
+		position: absolute;
+  		content: '';
+  		border-left: 2px solid red;
+  		height: 22px;
+  		width: 2px;
+  		transform: rotate(225deg);
+  		display: inline-block;
+  		right: 53px;
+  		bottom: 20px;
+	}
