@@ -721,6 +721,8 @@ p {
   margin-top: 100px;
   text-align: center;
   position: relative; }
+  .trace:hover {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8); }
   .trace img {
     height: auto;
     display: block;
@@ -1967,6 +1969,9 @@ img.mfp-img {
     margin-bottom: 20px; } }
 
 @media (min-width: 1200px){
+  .container{
+    width: 1200px;
+    margin: 0 auto; }
   .footer-phone{
     margin-left: 40px; }
   .page-header__order-btn{
@@ -1977,9 +1982,15 @@ img.mfp-img {
     top: 20px; }
   .btn--down{
     display: none; }
+  .rocks{
+    width: 1200px;
+    margin: 0 auto; }
   .rocks__text--desktop{
     padding-bottom: 360px;
     margin-bottom: 0; }
+  .routes{
+    width: 1200px;
+    margin: 0 auto; }
   .routes__slider{
     width: 1080px; }
   .share__wrap{
@@ -1991,6 +2002,9 @@ img.mfp-img {
     background-image: url(../img/about-lg.jpg); }
   .about__wrap{
     margin: 0 auto; }
+  .album{
+    margin-top: 40px;
+    margin-bottom: 40px; }
   .page-footer__contact{
     min-width: 490px;
     margin-top: 40px; } }
@@ -2001,7 +2015,10 @@ img.mfp-img {
     margin-right: 11px;
     box-sizing: border-box; }
   .trace--dark{
-    margin-top: 110px; } }
+    margin-top: 110px; }
+  .price__background{
+    width: 1200px;
+    margin: 0 auto; } }
 
 @media (max-width: 768px){
   .toggle-nav{
