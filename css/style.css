@@ -978,10 +978,39 @@ p {
   background-color: #f0f0f0; }
 
 .price__table-rub {
-  text-align: center; }
+  text-align: center;
+  height: 65px; }
   .price__table-rub--small {
     background-color: #f0f0f0;
     text-transform: lowercase; }
+  .price__table-rub:hover {
+    border: 2px solid; }
+
+.active-rub {
+  position: relative;
+  border: 2px solid red; }
+
+.active-rub:before {
+  position: absolute;
+  content: '';
+  border-left: 2px solid red;
+  height: 12px;
+  width: 2px;
+  transform: rotate(135deg);
+  display: inline-block;
+  right: 65px;
+  bottom: 20px; }
+
+.active-rub:after {
+  position: absolute;
+  content: '';
+  border-left: 2px solid red;
+  height: 22px;
+  width: 2px;
+  transform: rotate(225deg);
+  display: inline-block;
+  right: 53px;
+  bottom: 20px; }
 
 .price-mobile {
   display: -moz-flex;
@@ -1956,6 +1985,8 @@ img.mfp-img {
   .share__wrap{
     -ms-flex-direction: row;
     flex-direction: row; }
+  .share-offers__title{
+    padding-top: 40px; }
   .about__about-background{
     background-image: url(../img/about-lg.jpg); }
   .about__wrap{
