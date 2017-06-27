@@ -1,5 +1,6 @@
 .album{
 
+
 	&__container{
 		padding-left: 15px;
 		padding-right: 15px;
@@ -20,5 +21,10 @@
 
 	img{
 		margin: 0 auto;
+	}
+
+	@media(min-width: '$screen-lg'){
+		margin-top: 40px;
+		margin-bottom: 40px;
 	}
 }
