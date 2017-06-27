@@ -1225,9 +1225,7 @@ p {
   height: 400px; }
 
 .up {
-  position: relative;
-  width: 1200px;
-  padding: 20px; }
+  position: relative; }
 
 .arrow {
   position: absolute;
