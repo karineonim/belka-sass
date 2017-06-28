@@ -409,109 +409,109 @@ p {
   padding: 0; }
 
 .about-question-sm {
-  background-image: url(../img/sprite-040279975918187483.png);
+  background-image: url(../img/sprite-035269351016544404.png);
   background-position: -43px -46px;
   width: 42px;
   height: 33px; }
 
 .about-question {
-  background-image: url(../img/sprite-040279975918187483.png);
+  background-image: url(../img/sprite-035269351016544404.png);
   background-position: 0px 0px;
   width: 55px;
   height: 42px; }
 
 .about-rope-sm {
-  background-image: url(../img/sprite-040279975918187483.png);
+  background-image: url(../img/sprite-035269351016544404.png);
   background-position: -104px 0px;
   width: 31px;
   height: 32px; }
 
 .about-rope {
-  background-image: url(../img/sprite-040279975918187483.png);
+  background-image: url(../img/sprite-035269351016544404.png);
   background-position: -59px 0px;
   width: 41px;
   height: 42px; }
 
 .about-sign-sm {
-  background-image: url(../img/sprite-040279975918187483.png);
+  background-image: url(../img/sprite-035269351016544404.png);
   background-position: -104px -36px;
   width: 31px;
   height: 32px; }
 
 .about-sign {
-  background-image: url(../img/sprite-040279975918187483.png);
+  background-image: url(../img/sprite-035269351016544404.png);
   background-position: 0px -46px;
   width: 39px;
   height: 42px; }
 
 .comment-instagram {
-  background-image: url(../img/sprite-040279975918187483.png);
+  background-image: url(../img/sprite-035269351016544404.png);
   background-position: -139px -87px;
   width: 21px;
   height: 21px; }
 
 .comment-vk {
-  background-image: url(../img/sprite-040279975918187483.png);
+  background-image: url(../img/sprite-035269351016544404.png);
   background-position: -75px -92px;
   width: 30px;
   height: 18px; }
 
 .contacts-location {
-  background-image: url(../img/sprite-040279975918187483.png);
+  background-image: url(../img/sprite-035269351016544404.png);
   background-position: -23px -118px;
   width: 13px;
   height: 18px; }
 
 .contacts-phone {
-  background-image: url(../img/sprite-040279975918187483.png);
+  background-image: url(../img/sprite-035269351016544404.png);
   background-position: -104px -72px;
   width: 16px;
   height: 16px; }
 
 .contacts-time {
-  background-image: url(../img/sprite-040279975918187483.png);
+  background-image: url(../img/sprite-035269351016544404.png);
   background-position: 0px -118px;
   width: 19px;
   height: 19px; }
 
 .footer-instagram {
-  background-image: url(../img/sprite-040279975918187483.png);
+  background-image: url(../img/sprite-035269351016544404.png);
   background-position: -139px -59px;
   width: 24px;
   height: 24px; }
 
 .footer-phone {
-  background-image: url(../img/sprite-040279975918187483.png);
+  background-image: url(../img/sprite-035269351016544404.png);
   background-position: -109px -92px;
   width: 18px;
   height: 18px; }
 
 .footer-placeholder {
-  background-image: url(../img/sprite-040279975918187483.png);
+  background-image: url(../img/sprite-035269351016544404.png);
   background-position: 0px -141px;
   width: 14px;
   height: 20px; }
 
 .footer-twitter {
-  background-image: url(../img/sprite-040279975918187483.png);
+  background-image: url(../img/sprite-035269351016544404.png);
   background-position: -139px 0px;
   width: 28px;
   height: 24px; }
 
 .footer-vk {
-  background-image: url(../img/sprite-040279975918187483.png);
+  background-image: url(../img/sprite-035269351016544404.png);
   background-position: -39px -92px;
   width: 32px;
   height: 19px; }
 
 .routes-avatar {
-  background-image: url(../img/sprite-040279975918187483.png);
+  background-image: url(../img/sprite-035269351016544404.png);
   background-position: -139px -28px;
   width: 24px;
   height: 27px; }
 
 .routes-mountain {
-  background-image: url(../img/sprite-040279975918187483.png);
+  background-image: url(../img/sprite-035269351016544404.png);
   background-position: 0px -92px;
   width: 35px;
   height: 22px; }
@@ -569,7 +569,7 @@ p {
   width: 100%; }
   .page-header__contacts {
     background-color: #e9e9f1;
-    min-height: 30px;
+    height: 30px;
     position: relative; }
   .page-header__logo {
     display: none; }
@@ -2082,7 +2082,8 @@ img.mfp-img {
   .trace--dark{
     margin-top: 110px; }
   .price__background{
-    width: 1200px;
+    background-position: 0 50px;
+    width: 1215px;
     margin: 0 auto; } }
 
 @media (max-width: 768px){
