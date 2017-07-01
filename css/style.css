@@ -409,109 +409,109 @@ p {
   padding: 0; }
 
 .about-question-sm {
-  background-image: url(../img/sprite-035269351016544404.png);
+  background-image: url(../img/sprite-0017855725221348928.png);
   background-position: -43px -46px;
   width: 42px;
   height: 33px; }
 
 .about-question {
-  background-image: url(../img/sprite-035269351016544404.png);
+  background-image: url(../img/sprite-0017855725221348928.png);
   background-position: 0px 0px;
   width: 55px;
   height: 42px; }
 
 .about-rope-sm {
-  background-image: url(../img/sprite-035269351016544404.png);
+  background-image: url(../img/sprite-0017855725221348928.png);
   background-position: -104px 0px;
   width: 31px;
   height: 32px; }
 
 .about-rope {
-  background-image: url(../img/sprite-035269351016544404.png);
+  background-image: url(../img/sprite-0017855725221348928.png);
   background-position: -59px 0px;
   width: 41px;
   height: 42px; }
 
 .about-sign-sm {
-  background-image: url(../img/sprite-035269351016544404.png);
+  background-image: url(../img/sprite-0017855725221348928.png);
   background-position: -104px -36px;
   width: 31px;
   height: 32px; }
 
 .about-sign {
-  background-image: url(../img/sprite-035269351016544404.png);
+  background-image: url(../img/sprite-0017855725221348928.png);
   background-position: 0px -46px;
   width: 39px;
   height: 42px; }
 
 .comment-instagram {
-  background-image: url(../img/sprite-035269351016544404.png);
+  background-image: url(../img/sprite-0017855725221348928.png);
   background-position: -139px -87px;
   width: 21px;
   height: 21px; }
 
 .comment-vk {
-  background-image: url(../img/sprite-035269351016544404.png);
+  background-image: url(../img/sprite-0017855725221348928.png);
   background-position: -75px -92px;
   width: 30px;
   height: 18px; }
 
 .contacts-location {
-  background-image: url(../img/sprite-035269351016544404.png);
+  background-image: url(../img/sprite-0017855725221348928.png);
   background-position: -23px -118px;
   width: 13px;
   height: 18px; }
 
 .contacts-phone {
-  background-image: url(../img/sprite-035269351016544404.png);
+  background-image: url(../img/sprite-0017855725221348928.png);
   background-position: -104px -72px;
   width: 16px;
   height: 16px; }
 
 .contacts-time {
-  background-image: url(../img/sprite-035269351016544404.png);
+  background-image: url(../img/sprite-0017855725221348928.png);
   background-position: 0px -118px;
   width: 19px;
   height: 19px; }
 
 .footer-instagram {
-  background-image: url(../img/sprite-035269351016544404.png);
+  background-image: url(../img/sprite-0017855725221348928.png);
   background-position: -139px -59px;
   width: 24px;
   height: 24px; }
 
 .footer-phone {
-  background-image: url(../img/sprite-035269351016544404.png);
+  background-image: url(../img/sprite-0017855725221348928.png);
   background-position: -109px -92px;
   width: 18px;
   height: 18px; }
 
 .footer-placeholder {
-  background-image: url(../img/sprite-035269351016544404.png);
+  background-image: url(../img/sprite-0017855725221348928.png);
   background-position: 0px -141px;
   width: 14px;
   height: 20px; }
 
 .footer-twitter {
-  background-image: url(../img/sprite-035269351016544404.png);
+  background-image: url(../img/sprite-0017855725221348928.png);
   background-position: -139px 0px;
   width: 28px;
   height: 24px; }
 
 .footer-vk {
-  background-image: url(../img/sprite-035269351016544404.png);
+  background-image: url(../img/sprite-0017855725221348928.png);
   background-position: -39px -92px;
   width: 32px;
   height: 19px; }
 
 .routes-avatar {
-  background-image: url(../img/sprite-035269351016544404.png);
+  background-image: url(../img/sprite-0017855725221348928.png);
   background-position: -139px -28px;
   width: 24px;
   height: 27px; }
 
 .routes-mountain {
-  background-image: url(../img/sprite-035269351016544404.png);
+  background-image: url(../img/sprite-0017855725221348928.png);
   background-position: 0px -92px;
   width: 35px;
   height: 22px; }
@@ -721,8 +721,6 @@ p {
   margin-top: 100px;
   text-align: center;
   position: relative; }
-  .trace:hover {
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8); }
   .trace img {
     height: auto;
     display: block;
@@ -935,80 +933,81 @@ p {
 .album__wrap {
   position: relative; }
 
-.price__container {
-  padding-left: 15px;
-  padding-right: 15px; }
-
-.price__title {
-  margin-bottom: 55px; }
-
-.price__order-link {
-  display: block;
-  text-align: center;
-  text-decoration: underline;
-  padding-bottom: 30px;
-  position: relative;
-  z-index: 2; }
-
-.price__table-price {
-  display: none; }
-
-.price__table-time {
-  background-color: #f0f0f0;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  color: #22313f;
-  text-align: center;
-  font-size: 16px;
-  text-align: right;
-  padding-right: 10px; }
-  .price__table-time--bold {
-    font-family: "ProximaNova-Bold", sans-serif; }
-
-.price__table-trace {
-  background-color: #5b6671;
-  width: 20%;
-  color: #fff;
-  text-align: center;
-  white-space: pre;
-  text-transform: uppercase;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 15px; }
-
-.price__table-price {
-  width: 50%;
-  color: #22313f;
-  text-align: center;
-  white-space: pre;
-  text-transform: uppercase; }
-
-.price__table-hour {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #22313f;
-  font-size: 16px; }
-
-.price__table-personal {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  color: #22313f;
-  font-size: 16px;
-  background-color: #f0f0f0; }
-
-.price__table-rub {
-  text-align: center;
-  height: 65px; }
-  .price__table-rub--small {
+.price {
+  box-sizing: border-box; }
+  .price__container {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .price__title {
+    margin-bottom: 55px; }
+  .price__order-link {
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 2; }
+  .price__table-price {
+    display: none;
+    box-sizing: border-box; }
+  .price__table-time {
     background-color: #f0f0f0;
-    text-transform: lowercase; }
-  .price__table-rub:hover {
-    border: 2px solid; }
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #22313f;
+    text-align: center;
+    font-size: 16px;
+    text-align: right;
+    padding-right: 10px;
+    box-sizing: border-box; }
+    .price__table-time--bold {
+      font-family: "ProximaNova-Bold", sans-serif; }
+  .price__table-trace {
+    background-color: #5b6671;
+    width: 20%;
+    color: #fff;
+    text-align: center;
+    white-space: pre;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box; }
+  .price__table-price {
+    width: 50%;
+    color: #22313f;
+    text-align: center;
+    white-space: pre;
+    text-transform: uppercase;
+    box-sizing: border-box; }
+  .price__table-hour {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #22313f;
+    font-size: 16px; }
+  .price__table-personal {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #22313f;
+    font-size: 16px;
+    background-color: #f0f0f0; }
+  .price__table-rub {
+    text-align: center;
+    height: 65px;
+    box-sizing: border-box; }
+    .price__table-rub--small {
+      background-color: #f0f0f0;
+      text-transform: lowercase;
+      box-sizing: border-box; }
+    .price__table-rub:hover {
+      border: 2px solid;
+      box-sizing: border-box; }
 
 .active-rub {
   position: relative;
-  border: 2px solid red; }
+  border: 2px solid red;
+  box-sizing: border-box; }
 
 .active-rub:before {
   position: absolute;
@@ -1937,7 +1936,8 @@ img.mfp-img {
     font-size: 16px;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    box-sizing: border-box; }
   .price__table-age--small{
     text-transform: lowercase;
     display: block; }
@@ -2011,6 +2011,8 @@ img.mfp-img {
     margin: 0 auto; }
   .routes__slider{
     width: 1080px; }
+  .trace:hover{
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8); }
   .share__wrap{
     -ms-flex-direction: row;
     flex-direction: row; }
