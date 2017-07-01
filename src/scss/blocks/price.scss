@@ -1,4 +1,5 @@
 .price{
+	box-sizing: border-box;
 
 	@media(min-width: '$screen-sm'){
 		&__background{
@@ -64,6 +65,7 @@
 		text-align: center;
 		padding-top: 10px;
 		padding-bottom: 10px;
+		box-sizing: border-box;
 
 		&--small{
 			text-transform: lowercase;
@@ -86,6 +88,7 @@
 		font-size: $font-size + 2px;
 		text-align: right;
 		padding-right: 10px;
+		box-sizing: border-box;
 
 			&--bold{
 				font-family: $family-ProximaB;
@@ -112,6 +115,7 @@
 		text-align: center;
 		white-space: pre;
 		text-transform: uppercase;	
+		box-sizing: border-box;
 	}
 
 	&__table-hour{
@@ -142,6 +146,7 @@
 
 		&:hover{
 			border: 2px solid;
+			box-sizing: border-box;
 		}
 	}
 }
@@ -149,6 +154,7 @@
 	.active-rub{
 		position: relative;
 		border: 2px solid red;
+		box-sizing: border-box;
 	}
 
 	.active-rub:before{
