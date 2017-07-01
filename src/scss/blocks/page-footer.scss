@@ -1,6 +1,7 @@
 .page-footer{
+	background-color: $footer;
 	&__container{
-		background-color: $footer;
+		
 		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
