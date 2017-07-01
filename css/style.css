@@ -1162,48 +1162,44 @@ p {
     width: 30%;
     text-align: center; }
 
-.page-footer__container {
-  background-color: #22313f;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column-reverse;
-      flex-direction: column-reverse; }
-
-.page-footer__map-wrap {
-  width: 100%;
-  height: 400px;
-  margin-top: 31px;
-  margin-bottom: 20px; }
-
-.page-footer__contact {
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding-left: 15px;
-  width: 200px; }
-
-.page-footer__location {
-  color: #dadae7;
-  font-family: "ProximaNova-Light", sans-serif;
-  padding-left: 10px;
-  padding-bottom: 5px; }
-
-.page-footer__phone {
-  color: #dadae7;
-  font-family: "ProximaNova-Light", sans-serif;
-  padding-left: 5px;
-  padding-bottom: 5px; }
-
-.page-footer__social {
-  vertical-align: top;
-  margin-bottom: 20px; }
+.page-footer {
+  background-color: #22313f; }
+  .page-footer__container {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse; }
+  .page-footer__map-wrap {
+    width: 100%;
+    height: 400px;
+    margin-top: 31px;
+    margin-bottom: 20px; }
+  .page-footer__contact {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-left: 15px;
+    width: 200px; }
+  .page-footer__location {
+    color: #dadae7;
+    font-family: "ProximaNova-Light", sans-serif;
+    padding-left: 10px;
+    padding-bottom: 5px; }
+  .page-footer__phone {
+    color: #dadae7;
+    font-family: "ProximaNova-Light", sans-serif;
+    padding-left: 5px;
+    padding-bottom: 5px; }
+  .page-footer__social {
+    vertical-align: top;
+    margin-bottom: 20px; }
 
 .footer-nav {
   margin-bottom: 30px; }
@@ -2003,13 +1999,11 @@ img.mfp-img {
   .btn--down{
     display: none; }
   .rocks{
-    width: 1200px;
     margin: 0 auto; }
   .rocks__text--desktop{
     padding-bottom: 360px;
     margin-bottom: 0; }
   .routes{
-    width: 1200px;
     margin: 0 auto; }
   .routes__slider{
     width: 1080px; }
@@ -2087,7 +2081,6 @@ img.mfp-img {
     margin-top: 110px; }
   .price__background{
     background-position: 0 50px;
-    width: 1215px;
     margin: 0 auto; } }
 
 @media (max-width: 768px){
