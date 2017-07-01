@@ -1913,10 +1913,9 @@ img.mfp-img {
   .price__background{
     background-image: url(../img/prices.jpg);
     background-position: top;
-    background-position: 0 50px;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 101%;
     padding-bottom: 75px; }
   .price__title{
     margin-bottom: 30px; }
