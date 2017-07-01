@@ -47,6 +47,7 @@
 
 	&__table-price{
 	display: none;
+	box-sizing: border-box;
 
 	@media(min-width: '$screen-sm'){
 		display: inline-block;
@@ -102,6 +103,7 @@
 		padding-bottom: 15px;
 		padding-left: 15px;
 		padding-right: 15px;	
+		box-sizing: border-box;
 	}
 
 	&__table-price{
@@ -130,10 +132,12 @@
 	&__table-rub{
 		text-align: center;
 		height: 65px;
+		box-sizing: border-box;
 		
 		&--small{
 			background-color: $table-time;
 			text-transform: lowercase;
+			box-sizing: border-box;
 		}
 
 		&:hover{
