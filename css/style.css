@@ -933,81 +933,82 @@ p {
 .album__wrap {
   position: relative; }
 
-.price {
+.price__container {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.price__title {
+  margin-bottom: 55px; }
+
+.price__order-link {
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 30px;
+  position: relative;
+  z-index: 2; }
+
+.price__table-price {
+  display: none; }
+
+.price__table-time {
+  background-color: #f0f0f0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #22313f;
+  text-align: center;
+  font-size: 16px;
+  text-align: right;
+  padding-right: 10px; }
+  .price__table-time--bold {
+    font-family: "ProximaNova-Bold", sans-serif; }
+
+.price__table-trace {
+  background-color: #5b6671;
+  width: 20%;
+  color: #fff;
+  text-align: center;
+  white-space: pre;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.price__table-price {
+  width: 50%;
+  color: #22313f;
+  text-align: center;
+  white-space: pre;
+  text-transform: uppercase; }
+
+.price__table-hour {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #22313f;
+  font-size: 16px; }
+
+.price__table-personal {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #22313f;
+  font-size: 16px;
+  background-color: #f0f0f0; }
+
+.price__table-rub {
+  text-align: center;
+  height: 65px;
   box-sizing: border-box; }
-  .price__container {
-    padding-left: 15px;
-    padding-right: 15px; }
-  .price__title {
-    margin-bottom: 55px; }
-  .price__order-link {
-    display: block;
-    text-align: center;
-    text-decoration: underline;
-    padding-bottom: 30px;
-    position: relative;
-    z-index: 2; }
-  .price__table-price {
-    display: none;
-    box-sizing: border-box; }
-  .price__table-time {
+  .price__table-rub--small {
     background-color: #f0f0f0;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: #22313f;
-    text-align: center;
-    font-size: 16px;
-    text-align: right;
-    padding-right: 10px;
+    text-transform: lowercase; }
+  .price__table-rub:hover {
+    border: 2px solid;
     box-sizing: border-box; }
-    .price__table-time--bold {
-      font-family: "ProximaNova-Bold", sans-serif; }
-  .price__table-trace {
-    background-color: #5b6671;
-    width: 20%;
-    color: #fff;
-    text-align: center;
-    white-space: pre;
-    text-transform: uppercase;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    box-sizing: border-box; }
-  .price__table-price {
-    width: 50%;
-    color: #22313f;
-    text-align: center;
-    white-space: pre;
-    text-transform: uppercase;
-    box-sizing: border-box; }
-  .price__table-hour {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #22313f;
-    font-size: 16px; }
-  .price__table-personal {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: #22313f;
-    font-size: 16px;
-    background-color: #f0f0f0; }
-  .price__table-rub {
-    text-align: center;
-    height: 65px;
-    box-sizing: border-box; }
-    .price__table-rub--small {
-      background-color: #f0f0f0;
-      text-transform: lowercase;
-      box-sizing: border-box; }
-    .price__table-rub:hover {
-      border: 2px solid;
-      box-sizing: border-box; }
 
 .active-rub {
   position: relative;
-  border: 2px solid red;
-  box-sizing: border-box; }
+  border: 2px solid red; }
 
 .active-rub:before {
   position: absolute;
@@ -1928,7 +1929,9 @@ img.mfp-img {
     padding-left: 90px; }
   .price__table-price{
     display: inline-block;
-    width: 100%; }
+    width: 100%;
+    border-collapse: separate;
+    box-sizing: border-box; }
   .price__table-age{
     background-color: #5b6671;
     text-transform: uppercase;
@@ -1936,8 +1939,7 @@ img.mfp-img {
     font-size: 16px;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 10px;
-    box-sizing: border-box; }
+    padding-bottom: 10px; }
   .price__table-age--small{
     text-transform: lowercase;
     display: block; }
